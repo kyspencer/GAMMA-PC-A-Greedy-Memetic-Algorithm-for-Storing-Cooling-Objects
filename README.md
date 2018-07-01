@@ -71,3 +71,8 @@ Research*, vol. 237, pp. 846–856 (2014).
 * MOMAD = MultiObjective Memetic Algorithm based on Decomposition
 * NSGA-II = nondominated sorting genetic algorithm II
 * SBSBPP = Single Bin Size Bin Packing Problem
+
+
+[![DOI](https://zenodo.org/badge/139278037.svg)](https://zenodo.org/badge/latestdoi/139278037)
+
+
