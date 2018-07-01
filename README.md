@@ -5,39 +5,40 @@ K.Y. Spencer, P.V. Tsvetkov, and J.J. Jarrell, "A Greedy Memetic Algorithm for a
 Multiobjective Dynamic Bin Packing Problem for Storing Cooling Objects," *J. of
 Heuristics*.
 
-**Repository Structure**
-README.md
-license.txt
-Analysis/
-Results_Dynamic/
-Results_Static/
-SampleScripts/
+**Repository Structure** </br>
+README.md </br>
+license.txt </br>
+Analysis/ </br>
+Results_Dynamic/ </br>
+Results_Static/ </br>
+SampleScripts/ 
+
 
 The Analysis/ folder contains plots of the results as well as the scripts used to 
-generate the 3D empirical attainment functions.
-Analysis/eaf3D/
-Analysis/SBSBPP500/     (the static problem)
-Analysis/Cookies24/     (the toy dynamic problem)
-Analysis/Cookies1000/   (the full dynamic problem)
+generate the 3D empirical attainment functions. </br>
+Analysis/eaf3D/ </br>
+Analysis/SBSBPP500/     (the static problem) </br>
+Analysis/Cookies24/     (the toy dynamic problem) </br>
+Analysis/Cookies1000/   (the full dynamic problem) 
 
 The Results_Dynamic/ folder contains the raw data used to generate the problems, the
 results from each of the algorithms, and an analysis of the toy problem structure.
 Each of the folders for the algorithmic results contain folders for both the toy and 
-the full dynamic problem.
-Results_Dyanmic/GAMMA-PC/
-Results_Dyanmic/MOMA/
-Results_Dyanmic/NSGA-II/
-Results_Dyanmic/RawData/
-Results_Dyanmic/ToyProblem/
+the full dynamic problem. </br>
+Results_Dyanmic/GAMMA-PC/ </br>
+Results_Dyanmic/MOMA/ </br>
+Results_Dyanmic/NSGA-II/ </br>
+Results_Dyanmic/RawData/ </br>
+Results_Dyanmic/ToyProblem/ 
 
 The Results_Static/ folder contains the raw data used to generate the problems and the 
-results from each of the algorithms considered.
-Results_Static/GAMMA-PC/
-Results_Static/MOEPSO/
-Results_Static/MOMA/
-Results_Static/MOMAD/
-Results_Static/NSGA-II/
-Results_Static/RawData/
+results from each of the algorithms considered. </br>
+Results_Static/GAMMA-PC/ </br>
+Results_Static/MOEPSO/ </br>
+Results_Static/MOMA/ </br>
+Results_Static/MOMAD/ </br>
+Results_Static/NSGA-II/ </br>
+Results_Static/RawData/ 
 
 The SampleScripts/ folder contains some of the Python scripts that were used to 
 run the algorithms. This folder is not structured as a Python package. Future work
@@ -48,9 +49,10 @@ article. The comments within the scripts also need improvement.
 
 *Please note that the data in the RawData folders was generated using 2DCPackGen. 
 You can find more information about this program from the following article:*
-Silva E, Oliveira JF, Wäscher G "2DCPackGen: A problem generator for two-dimensional
+
+Silva E, Oliveira JF, WÃ¤scher G "2DCPackGen: A problem generator for two-dimensional
 rectangular cutting and packing problems," *European Journal of Operational
-Research*, vol. 237, pp. 846–856 (2014).
+Research*, vol. 237, pp. 846â€“856 (2014).
 
 Acronyms:
 * eaf = Empirical Attainment Function
