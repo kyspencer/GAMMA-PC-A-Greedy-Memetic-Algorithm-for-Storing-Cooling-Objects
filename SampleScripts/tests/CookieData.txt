@@ -1,0 +1,10 @@
+Cookie added to batch 1: 1247.38 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1250.98 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 1: 1254.96 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 1: 1243.07 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 1: 1257.68 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 1: 1259.56 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 1: 1264.17 kg/m3, 3.16 kJ/kgK
+Cookie added to batch 1: 1250.09 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 1: 1258.61 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 1: 1260.53 kg/m3, 3.12 kJ/kgK

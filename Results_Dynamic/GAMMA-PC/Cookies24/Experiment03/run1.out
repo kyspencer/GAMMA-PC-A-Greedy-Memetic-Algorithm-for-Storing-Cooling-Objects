@@ -1,0 +1,601 @@
+                          2017-01-19 14:02:55.842486
+*******************************************************************************
+
+     This output file records the optimization of a bin packing problem
+
+     with  24  items to pack. The optimization is terminated after
+
+      750  fitness function evaluations.
+
+
+*******************************************************************************
+
+     Method:  Development Algorithm
+     data:  TimeDependent/NewMethod/Cookies24/Experiment03/Cookies24.txt
+Generation  1 :
+prob_localsearch  0.10
+prob_ls3          0.30
+prob_ls2          0.70
+prob_ls1          0.40
+prob_crossover    0.80
+prob_mutation     0.30
+
+Generation  1 : 
+
+Gen. Member  Solution ID     f[1] (B)    f[2] (W)        f[3] (s)
+------------------------------------------------------------------
+          0           38            4       19.41          5818.7
+          1           50            5       17.51          5726.6
+          2           37            6        9.23          5520.8
+          3           64            6       15.26          5520.8
+          4           48            8       14.05          5520.8
+          5           12            6       11.41          5929.2
+          6           15            7        8.82          5520.8
+          7           44            5       17.81          5921.4
+          8           54            3       24.07          6148.5
+          9           91            4       12.40          5868.1
+         10           91            4       12.40          5868.1
+         11           85            5        9.06          6004.2
+         12           23            5       12.11          5395.0
+         13           74            5       17.61          5520.8
+         14          101            5       18.03          5868.8
+         15          102            5       17.90          6076.8
+         16          105            4       14.03          5921.4
+         17          106            5       11.71          5627.6
+         18          109            5       11.33          5520.8
+         19          110            4       21.67          5921.4
+         20          113            5       12.45          5921.4
+         21          114            5       15.49          5998.3
+         22          117            5       10.95          5831.6
+         23          118            5       19.62          5688.2
+         24          120            6       15.47          5635.1
+         25          121            5       20.53          5921.4
+         26          124            4       15.92          5921.4
+         27          125            4       28.20          5921.4
+         28          128            4       14.84          5818.7
+         29          130            5       12.38          5975.9
+         30          132            4       13.50          5875.2
+         31          134            4       16.38          5808.1
+         32          135            5       16.70          5605.9
+         33          137            5       15.11          5818.7
+         34          139            4       25.36          5921.4
+         35          141            5       16.29          5818.7
+         36          143            6       14.60          6046.0
+         37          145            4       20.82          6023.3
+         38          148            6        9.54          5431.9
+         39          150            5       12.05          5313.2
+         40          151            4       25.63          5921.4
+         41          153            4       20.97          5921.4
+         42          156            4       16.70          5921.4
+         43          157            4       21.89          5921.4
+         44          159            4       19.46          5921.4
+         45          162            5       14.30          5802.1
+         46          163            5       18.26          5580.8
+         47          165            6       11.95          5381.7
+         48          167            4       27.33          6023.3
+         49          170            6       11.21          5530.1
+
+There are currently  9 solutions in the Pareto Set:
+  - Solution Number  1
+  - Solution Number  91
+  - Solution Number  37
+  - Solution Number  54
+  - Solution Number  23
+  - Solution Number  15
+  - Solution Number  81
+  - Solution Number  85
+  - Solution Number  21
+
+
+Generation  2 :
+prob_localsearch  0.10
+prob_ls3          0.30
+prob_ls2          0.70
+prob_ls1          0.40
+prob_crossover    0.80
+prob_mutation     0.34
+
+Generation  2 : 
+
+Gen. Member  Solution ID     f[1] (B)    f[2] (W)        f[3] (s)
+------------------------------------------------------------------
+          0          117            5       10.95          5831.6
+          1          187            6        8.82          5278.4
+          2          187            6        8.82          5278.4
+          3          183            4       15.21          5691.7
+          4          177            4       12.97          5818.7
+          5           85            5        9.06          6004.2
+          6          184            6        7.63          5278.4
+          7          128            4       14.84          5818.7
+          8          176            4       12.97          5818.7
+          9           54            3       24.07          6148.5
+         10          194            6       11.77          5466.0
+         11          195            4       19.56          5921.4
+         12          197            6        9.84          5549.9
+         13          199            3       27.00          6148.5
+         14          202            4       16.83          5921.4
+         15          204            4       17.44          5932.4
+         16          206            7        8.13          5520.8
+         17          208            5       15.30          5938.1
+         18          210            4       10.82          5921.4
+         19          211            5       16.68          6005.4
+         20          213            5       14.88          5603.4
+         21          216            5       11.96          5558.1
+         22          217            3       29.58          6148.5
+         23          220            3       23.69          6139.5
+         24          221            3       26.19          6146.6
+         25          223            4       22.10          5921.4
+         26          226            4       16.32          5763.3
+         27          227            4       19.65          5921.4
+         28          229            4       20.40          5545.4
+         29          231            4       16.28          5921.4
+         30          233            4       14.78          5921.4
+         31          234            4       21.16          5754.9
+         32          236            5       15.54          5520.8
+         33          238            4       17.10          5801.6
+         34          240            5       10.17          5520.8
+         35          242            6        7.98          5312.8
+         36          243            4       17.28          5913.6
+         37          245            3       32.95          6148.5
+         38          247            3       28.42          6148.5
+         39          249            4       17.94          5964.2
+         40          252            5       11.37          6037.4
+         41          253            3       29.55          6148.5
+         42          255            5       14.10          5548.4
+         43          256            5       18.21          5921.4
+         44          258            4       20.36          6055.3
+         45          261            5       15.07          5512.5
+         46          262            4       23.47          5921.4
+         47          264            4       19.00          5921.4
+         48          266            5       13.66          5751.1
+         49          268            4       15.31          5708.0
+
+There are currently  23 solutions in the Pareto Set:
+  - Solution Number  192
+  - Solution Number  182
+  - Solution Number  85
+  - Solution Number  150
+  - Solution Number  91
+  - Solution Number  191
+  - Solution Number  172
+  - Solution Number  173
+  - Solution Number  174
+  - Solution Number  175
+  - Solution Number  176
+  - Solution Number  177
+  - Solution Number  178
+  - Solution Number  179
+  - Solution Number  180
+  - Solution Number  54
+  - Solution Number  183
+  - Solution Number  184
+  - Solution Number  185
+  - Solution Number  187
+  - Solution Number  189
+  - Solution Number  190
+  - Solution Number  21
+
+
+Generation  3 :
+prob_localsearch  0.10
+prob_ls3          0.30
+prob_ls2          0.70
+prob_ls1          0.40
+prob_crossover    0.80
+prob_mutation     0.37
+
+Generation  3 : 
+
+Gen. Member  Solution ID     f[1] (B)    f[2] (W)        f[3] (s)
+------------------------------------------------------------------
+          0          172            4       12.97          5818.7
+          1          296           13        2.52          5168.7
+          2          185            5       11.03          5446.9
+          3          286            3       23.31          6080.6
+          4          310            3       22.94          6148.5
+          5          312            4       27.65          5921.4
+          6          315            6       10.13          5222.4
+          7          317            7        9.16          5169.7
+          8          318            5       14.39          5826.6
+          9          320            4       17.63          6030.1
+         10          322            5       18.68          5877.7
+         11          324            5       15.52          5781.5
+         12          325            4       17.82          5688.4
+         13          327            4       19.23          5923.7
+         14          330            5       15.00          5835.8
+         15          332            4       15.27          6023.3
+         16          334            3       24.48          6148.5
+         17          335            4       20.65          6148.5
+         18          337            6       13.17          5179.9
+         19          339            4       19.32          6023.3
+         20          342            5       11.38          5684.0
+         21          343            5       18.28          5868.8
+         22          345            4       18.26          6023.3
+         23          347            6       13.16          5522.3
+         24          349            3       22.94          6148.5
+         25          351            3       22.94          6148.5
+         26          354            6        8.19          5537.4
+         27          355            5       12.64          5994.5
+         28          357            5       15.80          5814.2
+         29          358            3       22.07          6148.5
+         30          360            5       16.83          5940.0
+         31          363            5       12.98          5545.4
+         32          365            5       11.60          5921.4
+         33          366            6       13.72          5522.3
+         34          369            6       10.02          5520.8
+         35          370            4       20.37          5818.7
+         36          373            4       15.80          5467.2
+         37          374            4       21.62          5619.3
+         38          376            6       12.96          5452.8
+         39          378            5       17.48          5749.2
+         40          380            6       12.80          5456.7
+         41          382            5       17.44          5635.1
+         42          384            5       20.50          5520.8
+         43          386            4       20.24          5921.4
+         44          388            5       18.45          5743.3
+         45          391            6       11.22          5181.1
+         46          393            3       23.81          6147.8
+         47          394            5       18.23          5520.8
+         48          397            6        9.21          5520.8
+         49          398            4       24.83          5921.4
+
+There are currently  34 solutions in the Pareto Set:
+  - Solution Number  308
+  - Solution Number  182
+  - Solution Number  307
+  - Solution Number  210
+  - Solution Number  85
+  - Solution Number  150
+  - Solution Number  306
+  - Solution Number  91
+  - Solution Number  286
+  - Solution Number  287
+  - Solution Number  240
+  - Solution Number  292
+  - Solution Number  293
+  - Solution Number  294
+  - Solution Number  305
+  - Solution Number  296
+  - Solution Number  297
+  - Solution Number  298
+  - Solution Number  299
+  - Solution Number  172
+  - Solution Number  173
+  - Solution Number  174
+  - Solution Number  175
+  - Solution Number  176
+  - Solution Number  177
+  - Solution Number  178
+  - Solution Number  179
+  - Solution Number  180
+  - Solution Number  309
+  - Solution Number  183
+  - Solution Number  184
+  - Solution Number  185
+  - Solution Number  187
+  - Solution Number  21
+
+
+Generation  4 :
+prob_localsearch  0.10
+prob_ls3          0.10
+prob_ls2          0.90
+prob_ls1          0.50
+prob_crossover    0.80
+prob_mutation     0.39
+
+Generation  4 : 
+
+Gen. Member  Solution ID     f[1] (B)    f[2] (W)        f[3] (s)
+------------------------------------------------------------------
+          0          305            7        6.78          4809.9
+          1          325            4       17.82          5688.4
+          2          299           16        2.03          5168.7
+          3          292           10        4.22          5168.7
+          4          298           16        2.03          5168.7
+          5          298           16        2.03          5168.7
+          6          293           11        3.44          5168.7
+          7          403           11        3.93          4687.3
+          8          182            7        6.43          5004.8
+          9          306            7        6.58          4818.3
+         10          210            4       10.82          5921.4
+         11          407            3       25.95          6080.2
+         12          408            4       21.45          5921.4
+         13          410            4       22.49          5921.4
+         14          412            5       16.62          5481.9
+         15          415            5       13.44          5522.3
+         16          417            5       14.16          5868.8
+         17          418            5       13.67          5636.7
+         18          420            5       19.50          6023.3
+         19          423            3       25.48          6023.3
+         20          425            4       14.87          5956.0
+         21          427            4       12.13          5664.5
+         22          428            6       15.40          5406.6
+         23          430            4       22.44          5921.4
+         24          432            4       21.46          5868.8
+         25          434            4       21.47          5563.0
+         26          436            6       12.36          5866.6
+         27          438            3       21.39          6148.5
+         28          440            5       18.16          5520.8
+         29          443            3       22.68          6121.0
+         30          444            5       15.49          5593.3
+         31          446            4       21.33          5921.4
+         32          448            6       12.12          5171.6
+         33          451            4       17.79          6049.6
+         34          453            3       20.37          6146.6
+         35          454            4       21.39          5455.3
+         36          456            3       24.42          6146.6
+         37          459            3       23.12          6132.3
+         38          460            3       27.18          6148.5
+         39          463            5       11.79          5520.8
+         40          464            4       23.54          5921.4
+         41          466            5       17.64          5797.8
+         42          468            3       24.42          6146.6
+         43          470            5       18.34          5746.1
+         44          473            3       21.40          6146.6
+         45          474            4       16.63          5884.7
+         46          477            4       11.99          6023.3
+         47          479            5       15.08          5954.7
+         48          480            5       16.47          5301.4
+         49          483            4       14.79          5921.4
+
+There are currently  37 solutions in the Pareto Set:
+  - Solution Number  308
+  - Solution Number  182
+  - Solution Number  307
+  - Solution Number  401
+  - Solution Number  210
+  - Solution Number  403
+  - Solution Number  85
+  - Solution Number  150
+  - Solution Number  306
+  - Solution Number  358
+  - Solution Number  91
+  - Solution Number  286
+  - Solution Number  287
+  - Solution Number  240
+  - Solution Number  292
+  - Solution Number  293
+  - Solution Number  294
+  - Solution Number  305
+  - Solution Number  296
+  - Solution Number  297
+  - Solution Number  298
+  - Solution Number  299
+  - Solution Number  172
+  - Solution Number  173
+  - Solution Number  174
+  - Solution Number  175
+  - Solution Number  176
+  - Solution Number  177
+  - Solution Number  178
+  - Solution Number  179
+  - Solution Number  180
+  - Solution Number  309
+  - Solution Number  183
+  - Solution Number  184
+  - Solution Number  185
+  - Solution Number  187
+  - Solution Number  373
+
+
+Generation  5 :
+prob_localsearch  0.10
+prob_ls3          0.02
+prob_ls2          0.98
+prob_ls1          0.53
+prob_crossover    0.80
+prob_mutation     0.41
+
+Generation  5 : 
+
+Gen. Member  Solution ID     f[1] (B)    f[2] (W)        f[3] (s)
+------------------------------------------------------------------
+          0          401            6        7.59          5167.5
+          1          150            5       12.05          5313.2
+          2          503            5       13.11          5274.0
+          3          487            7        5.56          5511.6
+          4          307            8        5.04          4767.8
+          5          531           16        2.00          5168.7
+          6          534           10        3.36          4485.4
+          7          493            5       10.99          5512.5
+          8          182            7        6.43          5004.8
+          9          553            4       18.87          5520.8
+         10          555            3       26.38          5958.6
+         11          556            5       16.46          5368.8
+         12          558            5       20.74          5384.3
+         13          560            4       21.44          5471.1
+         14          563            5       15.35          5921.4
+         15          565            5       12.41          6023.3
+         16          567            6       10.26          5520.8
+         17          568            5       17.21          5524.3
+         18          570            4       21.27          5921.4
+         19          573            5        9.25          6017.0
+         20          574            4       16.10          5921.4
+         21          577            3       24.26          6108.9
+         22          578            5       18.44          5553.3
+         23          580            4       15.90          6023.3
+         24          581            5       21.47          5928.1
+         25          583            5       17.22          5921.4
+         26          585            4       21.09          6023.3
+         27          588            4       14.23          5815.2
+         28          589            4       18.24          5702.0
+         29          590            5       12.93          5644.9
+         30          593            5       12.39          5776.5
+         31          595            4       15.66          5583.5
+         32          597            5       12.68          5456.7
+         33          599            4       18.33          5818.7
+         34          600            4       17.05          5797.8
+         35          602            5       14.41          5520.8
+         36          604            6       12.25          5254.6
+         37          606            3       25.69          6148.5
+         38          609            5       11.95          5770.6
+         39          611            4       17.21          5704.9
+         40          613            4       15.62          5868.1
+         41          615            5       15.78          6041.9
+         42          617            4       15.68          5699.4
+         43          618            4       20.68          5890.1
+         44          620            4       26.39          6023.3
+         45          623            6       10.27          5520.8
+         46          624            4       24.21          5921.4
+         47          626            4       21.53          5921.4
+         48          628            4       18.18          5654.6
+         49          630            5       16.79          5809.9
+
+There are currently  42 solutions in the Pareto Set:
+  - Solution Number  534
+  - Solution Number  401
+  - Solution Number  530
+  - Solution Number  532
+  - Solution Number  150
+  - Solution Number  535
+  - Solution Number  536
+  - Solution Number  537
+  - Solution Number  538
+  - Solution Number  539
+  - Solution Number  540
+  - Solution Number  541
+  - Solution Number  542
+  - Solution Number  544
+  - Solution Number  545
+  - Solution Number  296
+  - Solution Number  297
+  - Solution Number  305
+  - Solution Number  306
+  - Solution Number  307
+  - Solution Number  308
+  - Solution Number  309
+  - Solution Number  182
+  - Solution Number  184
+  - Solution Number  487
+  - Solution Number  453
+  - Solution Number  454
+  - Solution Number  210
+  - Solution Number  185
+  - Solution Number  486
+  - Solution Number  488
+  - Solution Number  489
+  - Solution Number  490
+  - Solution Number  423
+  - Solution Number  493
+  - Solution Number  495
+  - Solution Number  240
+  - Solution Number  531
+  - Solution Number  373
+  - Solution Number  502
+  - Solution Number  503
+  - Solution Number  507
+
+
+Generation  6 :
+prob_localsearch  0.12
+prob_ls3          0.00
+prob_ls2          1.00
+prob_ls1          0.54
+prob_crossover    0.80
+prob_mutation     0.44
+
+Generation  6 : 
+
+Gen. Member  Solution ID     f[1] (B)    f[2] (W)        f[3] (s)
+------------------------------------------------------------------
+          0          453            3       20.37          6146.6
+          1          150            5       12.05          5313.2
+          2          307            8        5.04          4767.8
+          3          308            9        4.53          4674.3
+          4          307            8        5.04          4767.8
+          5          407            3       25.95          6080.2
+          6          296           13        2.52          5168.7
+          7          534           10        3.36          4485.4
+          8          658            6        7.31          5108.7
+          9          661            4       22.54          5921.4
+         10          663            6       16.78          5179.9
+         11          665            5       18.20          5438.8
+         12          667            4       21.40          5921.4
+         13          670            4       16.23          5921.4
+         14          671            4       22.48          5921.4
+         15          673            3       23.49          5921.4
+         16          676            5       13.93          5912.1
+         17          677            4       23.09          5921.4
+         18          679            5       18.27          5520.8
+         19          682            3       21.70          6096.9
+         20          683            3       30.79          5921.4
+         21          685            4       18.46          5856.9
+         22          688            5       13.44          6063.5
+         23          690            4       18.36          5999.5
+         24          692            3       20.08          6023.3
+         25          694            4       17.81          6033.0
+         26          695            4       24.70          5921.4
+         27          697            4       15.40          6046.0
+         28          699            4       13.55          5540.4
+         29          701            3       23.87          5958.6
+         30          703            4       15.57          5941.1
+         31          704            4       16.23          5552.2
+         32          705            5       17.01          5582.0
+         33          706            6       11.26          5520.8
+         34          708            3       25.24          6059.7
+         35          710            4       18.92          5921.4
+         36          713            3       25.95          6049.6
+         37          714            4       14.96          6003.9
+         38          716            6       17.38          5986.8
+         39          719            4       18.71          6003.8
+         40          721            4       16.02          5818.7
+         41          722            7       11.56          5520.8
+         42          724            4       19.16          6057.3
+         43          727            4       13.01          5958.6
+         44          728            6       13.20          5520.8
+         45          731            4       15.15          5766.1
+         46          733            5       17.07          5810.3
+         47          734            5       14.36          5747.1
+         48          735            5       16.43          5303.1
+         49          737            4       24.49          6049.6
+
+There are currently  44 solutions in the Pareto Set:
+  - Solution Number  534
+  - Solution Number  646
+  - Solution Number  658
+  - Solution Number  530
+  - Solution Number  532
+  - Solution Number  150
+  - Solution Number  535
+  - Solution Number  536
+  - Solution Number  537
+  - Solution Number  538
+  - Solution Number  539
+  - Solution Number  540
+  - Solution Number  541
+  - Solution Number  542
+  - Solution Number  544
+  - Solution Number  545
+  - Solution Number  296
+  - Solution Number  297
+  - Solution Number  555
+  - Solution Number  305
+  - Solution Number  306
+  - Solution Number  307
+  - Solution Number  308
+  - Solution Number  309
+  - Solution Number  182
+  - Solution Number  184
+  - Solution Number  487
+  - Solution Number  453
+  - Solution Number  454
+  - Solution Number  210
+  - Solution Number  185
+  - Solution Number  486
+  - Solution Number  488
+  - Solution Number  489
+  - Solution Number  490
+  - Solution Number  423
+  - Solution Number  493
+  - Solution Number  495
+  - Solution Number  240
+  - Solution Number  531
+  - Solution Number  373
+  - Solution Number  502
+  - Solution Number  503
+  - Solution Number  507
+
+
+*******************************************************************************
+                          2017-01-19 14:03:01.251155

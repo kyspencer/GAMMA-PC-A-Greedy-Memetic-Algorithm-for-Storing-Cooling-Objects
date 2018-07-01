@@ -1,0 +1,63 @@
+_______________________________________________________________________________________________________. 
+***Input parameters file for the Single Bin Size Bin Packing Problem (SBSBPP)***
+_______________________________________________________________________________________________________. 
+Number of Dimensions which defines the problem: 
+3
+ID of the rectangular cutting and packing problem: 
+13
+_______________________________________________________________________________________________________. 
+Enter an integer seed (smaller than 2,147,483,647): 
+758
+Please insert the number of instances to generate: 
+1
+Please insert integer values for the minimum and maximum size dimension of the large object base (separated by a space):
+1000 2000
+Please insert integer values for the minimum and maximum size dimension of the base of the items (separated by a space):
+1 100
+Please insert integer values for the minimum and maximum size height of the large object (separated by a space): 
+1000 2000
+Please insert integer values for the minimum and maximum size height of the small item (separated by a space): 
+1 1000
+___________________________________________________________________________.
+ ID Characteristics of the size and shape for items and large objects.           
+___________________________________________________________________________. 
+ 1	Small and square;
+ 2	Long and narrow;
+ 3	Average length and narrow;
+ 4	Small and square or long and narrow;
+ 5	Short and tall;
+ 6	Big and square;
+ 7	Average length and tall;
+ 8	Short and tall or long and tall;
+ 9	Short and average width;
+ 10	Long and average width;
+ 11	Average size and square;
+ 12	Short and average width or long and average width;
+ 13	Short and narrow or short and tall;
+ 14	Long and narrow or long and tall;
+ 15	Average length and narrow or average length and tall;
+ 16	Small and square, short and tall, long and narrow or big and square;
+___________________________________________________________________________.
+Please select the ID of the size and shape of base of the items: 
+11
+Please select the ID of the size and shape of the base of the large object: 
+6
+Please insert the minimum and maximum number of different item types (separated by a space): 
+1000 1000
+_________________________________________________________.
+ Enter: Characteristics.             
+_________________________________________________________.
+ 1	Beta distribution with alpha=1 and beta=3;
+ 2	Beta distribution with alpha=2 and beta=5;
+ 3	Beta distribution with alpha=2 and beta=2;
+ 4	Beta distribution with alpha=0.5 and beta=0.5;
+ 5	Beta distribution with alpha=1 and beta=1;
+ 6	Beta distribution with alpha=3 and beta=1;
+ 7	Beta distribution with alpha=5 and beta=2;
+_________________________________________________________.
+Please select the ID of the characteristic for the height of the large object: 
+4
+Please select the ID of the characteristic for the height of the small item: 
+5
+Please select the ID of the characteristic for the number of different item types: 
+4

@@ -1,0 +1,1000 @@
+Cookie added to batch 1: 1243.57 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 1: 1243.57 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 1: 1262.56 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 1: 1252.74 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 1: 1239.30 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 1: 1252.30 kg/m3, 3.14 kJ/kgK
+Cookie added to batch 1: 1255.85 kg/m3, 2.74 kJ/kgK
+Cookie added to batch 1: 1250.53 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 1: 1239.87 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 1: 1245.04 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 1: 1265.30 kg/m3, 2.77 kJ/kgK
+Cookie added to batch 1: 1254.07 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 1: 1243.57 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 1: 1256.76 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1247.84 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 1: 1271.31 kg/m3, 3.14 kJ/kgK
+Cookie added to batch 1: 1241.51 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 1: 1262.56 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 1: 1264.73 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 1: 1226.33 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 1: 1254.51 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 1: 1239.30 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 1: 1246.92 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 1: 1247.38 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1263.09 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1245.99 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 1: 1236.85 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 1: 1253.62 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 1: 1241.51 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 1: 1238.11 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 1: 1242.56 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 1: 1263.62 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 1: 1239.87 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 1: 1262.04 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 1: 1236.19 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 1: 1224.94 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 1: 1257.68 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 1: 1240.98 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 1: 1265.30 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 1: 1245.04 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 1: 1236.85 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 1: 1268.41 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 1: 1281.25 kg/m3, 3.20 kJ/kgK
+Cookie added to batch 1: 1257.68 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 1: 1231.62 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 1: 1238.11 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 1: 1244.07 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 1: 1247.38 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 1: 1252.74 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 1: 1255.40 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 1: 1247.84 kg/m3, 2.64 kJ/kgK
+Cookie added to batch 1: 1269.09 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 1: 1260.53 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 1: 1249.20 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 1: 1242.56 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 1: 1244.07 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1251.86 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 1: 1267.11 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 1: 1258.61 kg/m3, 3.20 kJ/kgK
+Cookie added to batch 1: 1269.09 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 1: 1246.46 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 1: 1265.30 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 1: 1273.89 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 1: 1246.46 kg/m3, 3.09 kJ/kgK
+Cookie added to batch 1: 1261.53 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 1: 1246.92 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1266.49 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 1: 1260.04 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 1: 1238.11 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 1: 1249.20 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 1: 1255.85 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 1: 1227.57 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 1: 1247.84 kg/m3, 3.16 kJ/kgK
+Cookie added to batch 1: 1243.57 kg/m3, 3.13 kJ/kgK
+Cookie added to batch 1: 1241.51 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 1: 1233.29 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 1: 1270.54 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 1: 1255.40 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 1: 1262.56 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 1: 1261.03 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 1: 1245.52 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 1: 1244.56 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 1: 1227.57 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 1: 1257.68 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 1: 1264.73 kg/m3, 3.17 kJ/kgK
+Cookie added to batch 1: 1250.09 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 1: 1266.49 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 1: 1274.86 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 1: 1254.51 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 1: 1232.48 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 1: 1260.04 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1261.53 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 1: 1245.52 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 1: 1271.31 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 1: 1253.18 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 1: 1243.57 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 1: 1244.07 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 1: 1269.09 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 1: 1265.30 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 1: 1248.30 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 2: 1245.52 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 2: 1257.68 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 2: 1277.03 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 2: 1251.42 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 2: 1255.40 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 2: 1253.62 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 2: 1245.52 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 2: 1269.80 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 2: 1250.09 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 2: 1246.92 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 2: 1243.57 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 2: 1231.62 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 2: 1257.22 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 2: 1257.68 kg/m3, 3.14 kJ/kgK
+Cookie added to batch 2: 1232.48 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 2: 1230.71 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 2: 1256.76 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 2: 1244.56 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 2: 1254.07 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 2: 1245.99 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 2: 1239.30 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 2: 1229.74 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 2: 1262.56 kg/m3, 2.64 kJ/kgK
+Cookie added to batch 2: 1274.86 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 2: 1251.86 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 2: 1245.99 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 2: 1248.75 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 2: 1250.09 kg/m3, 3.17 kJ/kgK
+Cookie added to batch 2: 1256.76 kg/m3, 2.74 kJ/kgK
+Cookie added to batch 2: 1230.71 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 2: 1232.48 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 2: 1254.51 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 2: 1245.52 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 2: 1264.73 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 2: 1240.43 kg/m3, 3.26 kJ/kgK
+Cookie added to batch 2: 1246.92 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 2: 1243.07 kg/m3, 2.70 kJ/kgK
+Cookie added to batch 2: 1245.99 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 2: 1240.43 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 2: 1229.74 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 2: 1272.12 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 2: 1273.89 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 2: 1278.27 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 2: 1260.53 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 2: 1260.04 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 2: 1253.62 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 2: 1261.53 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 2: 1259.56 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 2: 1249.64 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 2: 1272.98 kg/m3, 3.24 kJ/kgK
+Cookie added to batch 2: 1248.75 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 2: 1254.51 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 2: 1264.17 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 2: 1250.53 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 2: 1244.56 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 2: 1243.57 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 2: 1249.64 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 2: 1241.51 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 2: 1251.42 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 2: 1250.53 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 2: 1251.42 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 2: 1256.30 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 2: 1223.35 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 2: 1260.53 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 2: 1250.53 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 2: 1236.19 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 2: 1254.07 kg/m3, 2.68 kJ/kgK
+Cookie added to batch 2: 1256.76 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 2: 1221.49 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 2: 1245.99 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 2: 1245.04 kg/m3, 3.16 kJ/kgK
+Cookie added to batch 2: 1263.09 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 2: 1268.41 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 2: 1250.98 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 2: 1254.96 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 2: 1248.30 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 2: 1252.74 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 2: 1247.38 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 2: 1257.22 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 2: 1277.03 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 2: 1253.18 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 2: 1258.14 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 2: 1283.11 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 2: 1239.87 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 2: 1252.30 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 2: 1238.71 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 2: 1258.61 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 2: 1240.98 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 2: 1262.56 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 2: 1269.09 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 2: 1264.73 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 2: 1250.53 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 2: 1245.99 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 2: 1260.53 kg/m3, 3.16 kJ/kgK
+Cookie added to batch 2: 1256.30 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 2: 1255.85 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 2: 1232.48 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 2: 1246.92 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 2: 1271.31 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 2: 1250.98 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 3: 1259.08 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 3: 1249.20 kg/m3, 3.11 kJ/kgK
+Cookie added to batch 3: 1249.64 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 3: 1264.73 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 3: 1256.30 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 3: 1247.38 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 3: 1240.98 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 3: 1265.89 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 3: 1265.30 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 3: 1261.03 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 3: 1255.40 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 3: 1264.17 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 3: 1248.75 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 3: 1266.49 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 3: 1253.62 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 3: 1243.07 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 3: 1272.98 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 3: 1257.22 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 3: 1246.46 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 3: 1237.49 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 3: 1245.04 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 3: 1243.57 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 3: 1271.31 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 3: 1236.85 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 3: 1233.29 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 3: 1251.42 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 3: 1277.03 kg/m3, 3.19 kJ/kgK
+Cookie added to batch 3: 1232.48 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 3: 1254.51 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 3: 1264.17 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 3: 1260.53 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 3: 1257.22 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 3: 1236.19 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 3: 1254.07 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 3: 1264.17 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 3: 1274.86 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 3: 1234.06 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 3: 1224.94 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 3: 1245.04 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 3: 1237.49 kg/m3, 3.24 kJ/kgK
+Cookie added to batch 3: 1248.75 kg/m3, 2.59 kJ/kgK
+Cookie added to batch 3: 1236.85 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 3: 1245.04 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 3: 1248.30 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 3: 1252.30 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 3: 1252.30 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 3: 1254.51 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 3: 1238.71 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 3: 1254.96 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 3: 1250.09 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 3: 1262.56 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 3: 1260.53 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 3: 1229.74 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 3: 1250.53 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 3: 1267.11 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 3: 1240.98 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 3: 1242.56 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 3: 1241.51 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 3: 1247.38 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 3: 1262.04 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 3: 1277.03 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 3: 1243.07 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 3: 1244.56 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 3: 1254.96 kg/m3, 3.09 kJ/kgK
+Cookie added to batch 3: 1245.52 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 3: 1244.56 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 3: 1247.84 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 3: 1259.56 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 3: 1262.04 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 3: 1251.42 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 3: 1233.29 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 3: 1267.11 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 3: 1245.99 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 3: 1265.89 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 3: 1244.07 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 3: 1273.89 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 3: 1245.99 kg/m3, 2.70 kJ/kgK
+Cookie added to batch 3: 1243.57 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 3: 1265.30 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 3: 1270.54 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 3: 1227.57 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 3: 1224.94 kg/m3, 3.26 kJ/kgK
+Cookie added to batch 3: 1253.62 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 3: 1255.85 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 3: 1224.94 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 3: 1239.87 kg/m3, 3.45 kJ/kgK
+Cookie added to batch 3: 1251.42 kg/m3, 2.79 kJ/kgK
+Cookie added to batch 3: 1285.40 kg/m3, 3.24 kJ/kgK
+Cookie added to batch 3: 1263.62 kg/m3, 3.20 kJ/kgK
+Cookie added to batch 3: 1244.56 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 3: 1240.43 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 3: 1259.08 kg/m3, 3.22 kJ/kgK
+Cookie added to batch 3: 1241.51 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 3: 1255.85 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 3: 1254.51 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 3: 1243.57 kg/m3, 2.75 kJ/kgK
+Cookie added to batch 3: 1253.18 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 3: 1234.80 kg/m3, 3.13 kJ/kgK
+Cookie added to batch 3: 1246.92 kg/m3, 3.14 kJ/kgK
+Cookie added to batch 3: 1258.61 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 4: 1256.76 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 4: 1249.64 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 4: 1227.57 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 4: 1244.07 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 4: 1247.38 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 4: 1261.53 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 4: 1256.76 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1262.04 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 4: 1264.17 kg/m3, 2.54 kJ/kgK
+Cookie added to batch 4: 1246.92 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 4: 1248.30 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 4: 1259.08 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 4: 1253.62 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1246.92 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 4: 1253.18 kg/m3, 2.64 kJ/kgK
+Cookie added to batch 4: 1243.07 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 4: 1259.56 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 4: 1245.04 kg/m3, 3.22 kJ/kgK
+Cookie added to batch 4: 1262.04 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 4: 1254.51 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 4: 1259.08 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 4: 1250.53 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 4: 1271.31 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 4: 1255.40 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 4: 1248.75 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 4: 1258.14 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 4: 1247.84 kg/m3, 2.66 kJ/kgK
+Cookie added to batch 4: 1237.49 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 4: 1243.57 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1254.07 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 4: 1259.08 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 4: 1254.96 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 4: 1245.99 kg/m3, 3.24 kJ/kgK
+Cookie added to batch 4: 1238.11 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 4: 1254.07 kg/m3, 3.14 kJ/kgK
+Cookie added to batch 4: 1255.40 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 4: 1255.85 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 4: 1262.04 kg/m3, 2.71 kJ/kgK
+Cookie added to batch 4: 1234.80 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 4: 1248.75 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 4: 1275.90 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 4: 1263.62 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 4: 1235.51 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 4: 1246.92 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1248.30 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 4: 1265.30 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1245.52 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 4: 1277.03 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 4: 1229.74 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 4: 1247.38 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 4: 1259.56 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 4: 1241.51 kg/m3, 3.17 kJ/kgK
+Cookie added to batch 4: 1238.11 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 4: 1256.30 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 4: 1224.94 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 4: 1247.38 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 4: 1261.03 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 4: 1238.71 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1255.85 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 4: 1259.08 kg/m3, 3.11 kJ/kgK
+Cookie added to batch 4: 1273.89 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 4: 1270.54 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 4: 1238.71 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 4: 1261.03 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 4: 1262.04 kg/m3, 2.71 kJ/kgK
+Cookie added to batch 4: 1260.53 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 4: 1285.40 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 4: 1250.09 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 4: 1251.42 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 4: 1251.86 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 4: 1270.54 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1267.11 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 4: 1243.57 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 4: 1231.62 kg/m3, 3.19 kJ/kgK
+Cookie added to batch 4: 1249.20 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 4: 1252.30 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 4: 1250.98 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 4: 1239.87 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 4: 1245.99 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 4: 1248.75 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 4: 1254.51 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 4: 1247.84 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 4: 1266.49 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 4: 1278.27 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 4: 1241.51 kg/m3, 3.13 kJ/kgK
+Cookie added to batch 4: 1229.74 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 4: 1252.74 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 4: 1256.30 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 4: 1248.30 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 4: 1245.99 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 4: 1236.85 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 4: 1272.12 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 4: 1278.27 kg/m3, 3.14 kJ/kgK
+Cookie added to batch 4: 1245.04 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 4: 1236.19 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 4: 1269.80 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 4: 1256.76 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 4: 1252.74 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 4: 1267.11 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 4: 1250.09 kg/m3, 3.13 kJ/kgK
+Cookie added to batch 5: 1240.98 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 5: 1264.17 kg/m3, 3.22 kJ/kgK
+Cookie added to batch 5: 1264.73 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 5: 1239.30 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1246.46 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 5: 1247.38 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 5: 1246.46 kg/m3, 2.64 kJ/kgK
+Cookie added to batch 5: 1273.89 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 5: 1243.07 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 5: 1278.27 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 5: 1253.62 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 5: 1242.56 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1240.98 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 5: 1229.74 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 5: 1266.49 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 5: 1268.41 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 5: 1245.99 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 5: 1254.07 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1250.53 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 5: 1250.98 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 5: 1249.64 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 5: 1250.09 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 5: 1226.33 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 5: 1246.92 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 5: 1243.07 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 5: 1234.80 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 5: 1250.98 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 5: 1246.92 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 5: 1254.51 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 5: 1252.74 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 5: 1253.62 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 5: 1271.31 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 5: 1266.49 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1251.86 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 5: 1258.61 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 5: 1261.53 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 5: 1256.30 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 5: 1227.57 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 5: 1250.98 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 5: 1259.08 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 5: 1240.43 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 5: 1235.51 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 5: 1255.40 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 5: 1256.30 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 5: 1236.19 kg/m3, 3.20 kJ/kgK
+Cookie added to batch 5: 1267.11 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1257.68 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 5: 1268.41 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 5: 1236.85 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1245.04 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 5: 1236.85 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 5: 1264.17 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 5: 1251.86 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 5: 1237.49 kg/m3, 3.26 kJ/kgK
+Cookie added to batch 5: 1256.76 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 5: 1269.09 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 5: 1234.80 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 5: 1261.53 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1274.86 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1254.07 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 5: 1259.08 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 5: 1247.84 kg/m3, 3.18 kJ/kgK
+Cookie added to batch 5: 1239.30 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 5: 1247.38 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 5: 1242.56 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 5: 1263.62 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1259.08 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 5: 1247.84 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 5: 1271.31 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 5: 1253.62 kg/m3, 3.16 kJ/kgK
+Cookie added to batch 5: 1245.52 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 5: 1261.03 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 5: 1258.14 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 5: 1254.96 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 5: 1224.94 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 5: 1240.43 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 5: 1271.31 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 5: 1254.07 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 5: 1234.06 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 5: 1245.04 kg/m3, 3.14 kJ/kgK
+Cookie added to batch 5: 1239.30 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 5: 1267.75 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 5: 1245.04 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 5: 1244.07 kg/m3, 2.74 kJ/kgK
+Cookie added to batch 5: 1240.43 kg/m3, 2.68 kJ/kgK
+Cookie added to batch 5: 1258.61 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 5: 1253.18 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 5: 1239.30 kg/m3, 3.22 kJ/kgK
+Cookie added to batch 5: 1261.53 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 5: 1254.96 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 5: 1248.30 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 5: 1261.03 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 5: 1247.84 kg/m3, 2.77 kJ/kgK
+Cookie added to batch 5: 1245.99 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 5: 1254.07 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 5: 1252.30 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 5: 1253.62 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 5: 1255.85 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 5: 1239.30 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 5: 1278.27 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 6: 1253.62 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 6: 1255.85 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 6: 1252.74 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 6: 1252.30 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 6: 1243.07 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 6: 1249.64 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 6: 1261.53 kg/m3, 2.68 kJ/kgK
+Cookie added to batch 6: 1250.53 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 6: 1245.04 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 6: 1240.43 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 6: 1233.29 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 6: 1248.30 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 6: 1262.56 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 6: 1230.71 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 6: 1244.07 kg/m3, 3.20 kJ/kgK
+Cookie added to batch 6: 1239.87 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 6: 1248.30 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 6: 1273.89 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 6: 1259.08 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 6: 1249.20 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 6: 1245.99 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 6: 1240.43 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 6: 1245.52 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 6: 1260.04 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 6: 1273.89 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 6: 1255.85 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 6: 1255.40 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 6: 1250.98 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 6: 1219.20 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 6: 1255.40 kg/m3, 3.11 kJ/kgK
+Cookie added to batch 6: 1272.12 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 6: 1262.04 kg/m3, 3.09 kJ/kgK
+Cookie added to batch 6: 1250.98 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 6: 1257.22 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 6: 1235.51 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 6: 1247.38 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 6: 1265.30 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 6: 1246.92 kg/m3, 2.79 kJ/kgK
+Cookie added to batch 6: 1252.74 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 6: 1246.46 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 6: 1274.86 kg/m3, 3.22 kJ/kgK
+Cookie added to batch 6: 1271.31 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 6: 1246.46 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 6: 1260.53 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 6: 1245.52 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 6: 1246.92 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 6: 1267.11 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 6: 1244.56 kg/m3, 3.18 kJ/kgK
+Cookie added to batch 6: 1236.19 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 6: 1235.51 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 6: 1236.85 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 6: 1245.52 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 6: 1253.62 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 6: 1255.85 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 6: 1250.09 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 6: 1249.64 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 6: 1254.51 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 6: 1263.09 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 6: 1257.22 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 6: 1243.07 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 6: 1240.98 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 6: 1243.57 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 6: 1250.53 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 6: 1251.42 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 6: 1246.92 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 6: 1258.61 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 6: 1234.80 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 6: 1247.84 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 6: 1263.62 kg/m3, 3.19 kJ/kgK
+Cookie added to batch 6: 1239.30 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 6: 1234.06 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 6: 1246.46 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 6: 1231.62 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 6: 1258.14 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 6: 1257.68 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 6: 1252.74 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 6: 1272.98 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 6: 1274.86 kg/m3, 3.19 kJ/kgK
+Cookie added to batch 6: 1252.74 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 6: 1243.57 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 6: 1264.73 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 6: 1236.85 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 6: 1240.98 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 6: 1252.74 kg/m3, 3.17 kJ/kgK
+Cookie added to batch 6: 1250.09 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 6: 1252.74 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 6: 1267.11 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 6: 1247.38 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 6: 1273.89 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 6: 1264.17 kg/m3, 2.66 kJ/kgK
+Cookie added to batch 6: 1241.51 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 6: 1254.51 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 6: 1248.75 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 6: 1229.74 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 6: 1255.85 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 6: 1246.46 kg/m3, 3.13 kJ/kgK
+Cookie added to batch 6: 1242.04 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 6: 1255.85 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 6: 1245.04 kg/m3, 3.19 kJ/kgK
+Cookie added to batch 6: 1242.56 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 7: 1248.30 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 7: 1236.85 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 7: 1252.74 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 7: 1264.73 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 7: 1255.40 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 7: 1275.90 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 7: 1242.04 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 7: 1245.99 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 7: 1231.62 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 7: 1288.45 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 7: 1227.57 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 7: 1255.40 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 7: 1267.75 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 7: 1261.53 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 7: 1250.09 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 7: 1234.06 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 7: 1271.31 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 7: 1269.09 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 7: 1253.18 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 7: 1250.09 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 7: 1251.42 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 7: 1250.98 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 7: 1238.11 kg/m3, 2.70 kJ/kgK
+Cookie added to batch 7: 1268.41 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 7: 1259.56 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 7: 1264.73 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 7: 1254.96 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 7: 1262.56 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 7: 1246.92 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 7: 1253.62 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 7: 1248.75 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 7: 1259.56 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 7: 1253.62 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 7: 1265.30 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 7: 1257.68 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 7: 1260.53 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 7: 1233.29 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 7: 1252.30 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 7: 1256.76 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 7: 1262.56 kg/m3, 3.20 kJ/kgK
+Cookie added to batch 7: 1232.48 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 7: 1288.45 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 7: 1250.53 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 7: 1247.38 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 7: 1255.85 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 7: 1259.08 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 7: 1254.96 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 7: 1255.85 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 7: 1274.86 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 7: 1273.89 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 7: 1234.80 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 7: 1229.74 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 7: 1241.51 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 7: 1252.74 kg/m3, 3.17 kJ/kgK
+Cookie added to batch 7: 1264.17 kg/m3, 3.16 kJ/kgK
+Cookie added to batch 7: 1227.57 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 7: 1250.09 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 7: 1240.43 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 7: 1221.49 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 7: 1249.64 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 7: 1250.09 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 7: 1245.99 kg/m3, 2.68 kJ/kgK
+Cookie added to batch 7: 1247.84 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 7: 1265.89 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 7: 1262.04 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 7: 1232.48 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 7: 1250.09 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 7: 1249.20 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 7: 1245.52 kg/m3, 2.66 kJ/kgK
+Cookie added to batch 7: 1262.56 kg/m3, 3.16 kJ/kgK
+Cookie added to batch 7: 1251.86 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 7: 1254.07 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 7: 1238.11 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 7: 1256.76 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 7: 1258.61 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 7: 1252.30 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 7: 1242.56 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 7: 1255.85 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 7: 1258.14 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 7: 1229.74 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 7: 1251.86 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 7: 1244.07 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 7: 1253.62 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 7: 1244.07 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 7: 1264.73 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 7: 1236.85 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 7: 1252.74 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 7: 1249.20 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 7: 1252.74 kg/m3, 3.18 kJ/kgK
+Cookie added to batch 7: 1241.51 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 7: 1245.52 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 7: 1270.54 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 7: 1253.62 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 7: 1249.20 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 7: 1243.07 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 7: 1245.04 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 7: 1258.14 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 7: 1238.71 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 7: 1259.56 kg/m3, 3.17 kJ/kgK
+Cookie added to batch 7: 1250.09 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 8: 1245.52 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 8: 1238.11 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 8: 1263.62 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 8: 1285.40 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 8: 1235.51 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 8: 1259.56 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 8: 1250.53 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 8: 1246.92 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 8: 1257.68 kg/m3, 2.77 kJ/kgK
+Cookie added to batch 8: 1245.04 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 8: 1256.30 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 8: 1259.08 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 8: 1265.30 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 8: 1240.43 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 8: 1261.53 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 8: 1246.92 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 8: 1255.85 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 8: 1266.49 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 8: 1258.14 kg/m3, 3.13 kJ/kgK
+Cookie added to batch 8: 1252.30 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 8: 1255.85 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 8: 1236.19 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 8: 1264.73 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 8: 1250.09 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 8: 1234.80 kg/m3, 2.79 kJ/kgK
+Cookie added to batch 8: 1257.22 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 8: 1251.86 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 8: 1233.29 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 8: 1230.71 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 8: 1250.98 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 8: 1256.30 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 8: 1285.40 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 8: 1246.46 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 8: 1236.19 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 8: 1242.04 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 8: 1259.56 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 8: 1257.22 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 8: 1258.14 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 8: 1247.38 kg/m3, 2.72 kJ/kgK
+Cookie added to batch 8: 1240.43 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 8: 1256.76 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 8: 1238.11 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 8: 1245.04 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 8: 1265.89 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 8: 1250.98 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 8: 1253.62 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 8: 1247.84 kg/m3, 2.77 kJ/kgK
+Cookie added to batch 8: 1243.07 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 8: 1273.89 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 8: 1263.62 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 8: 1259.08 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 8: 1250.53 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 8: 1247.38 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 8: 1266.49 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 8: 1258.14 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 8: 1263.62 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 8: 1258.61 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 8: 1242.56 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 8: 1270.54 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 8: 1263.62 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 8: 1254.51 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 8: 1251.42 kg/m3, 2.68 kJ/kgK
+Cookie added to batch 8: 1239.30 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 8: 1253.18 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 8: 1265.89 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 8: 1254.07 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 8: 1249.20 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 8: 1269.80 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 8: 1234.80 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 8: 1245.04 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 8: 1245.52 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 8: 1265.30 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 8: 1254.96 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 8: 1273.89 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 8: 1251.42 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 8: 1231.62 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 8: 1262.04 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 8: 1231.62 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 8: 1254.96 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 8: 1264.73 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 8: 1264.73 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 8: 1259.08 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 8: 1269.80 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 8: 1250.98 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 8: 1234.80 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 8: 1247.84 kg/m3, 3.09 kJ/kgK
+Cookie added to batch 8: 1256.30 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 8: 1251.42 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 8: 1245.04 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 8: 1254.51 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 8: 1249.20 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 8: 1273.89 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 8: 1242.56 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 8: 1223.35 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 8: 1278.27 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 8: 1275.90 kg/m3, 2.77 kJ/kgK
+Cookie added to batch 8: 1250.09 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 8: 1232.48 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 8: 1256.76 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 8: 1265.89 kg/m3, 3.05 kJ/kgK
+Cookie added to batch 9: 1256.76 kg/m3, 2.95 kJ/kgK
+Cookie added to batch 9: 1261.03 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 9: 1257.68 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 9: 1228.70 kg/m3, 3.11 kJ/kgK
+Cookie added to batch 9: 1246.92 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 9: 1239.87 kg/m3, 2.78 kJ/kgK
+Cookie added to batch 9: 1252.74 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 9: 1242.04 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 9: 1250.53 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 9: 1239.87 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 9: 1234.80 kg/m3, 2.98 kJ/kgK
+Cookie added to batch 9: 1252.30 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 9: 1277.03 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 9: 1278.27 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 9: 1251.42 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 9: 1240.98 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 9: 1240.43 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 9: 1243.57 kg/m3, 3.11 kJ/kgK
+Cookie added to batch 9: 1260.04 kg/m3, 2.73 kJ/kgK
+Cookie added to batch 9: 1254.07 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 9: 1255.85 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 9: 1233.29 kg/m3, 2.97 kJ/kgK
+Cookie added to batch 9: 1234.06 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 9: 1241.51 kg/m3, 3.26 kJ/kgK
+Cookie added to batch 9: 1231.62 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 9: 1247.38 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 9: 1250.53 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 9: 1261.03 kg/m3, 2.64 kJ/kgK
+Cookie added to batch 9: 1244.56 kg/m3, 2.66 kJ/kgK
+Cookie added to batch 9: 1238.71 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 9: 1249.64 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 9: 1234.80 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 9: 1249.64 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 9: 1258.14 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 9: 1253.62 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 9: 1252.30 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 9: 1267.75 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 9: 1264.17 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 9: 1262.56 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 9: 1256.76 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 9: 1259.56 kg/m3, 3.11 kJ/kgK
+Cookie added to batch 9: 1258.61 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 9: 1244.07 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 9: 1250.09 kg/m3, 2.83 kJ/kgK
+Cookie added to batch 9: 1258.14 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 9: 1250.53 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 9: 1232.48 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 9: 1265.89 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 9: 1263.62 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 9: 1239.30 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 9: 1263.09 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 9: 1262.56 kg/m3, 2.92 kJ/kgK
+Cookie added to batch 9: 1259.08 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 9: 1247.84 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 9: 1261.03 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 9: 1261.03 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 9: 1267.11 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 9: 1250.98 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 9: 1238.11 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 9: 1236.85 kg/m3, 2.85 kJ/kgK
+Cookie added to batch 9: 1246.92 kg/m3, 2.91 kJ/kgK
+Cookie added to batch 9: 1241.51 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 9: 1261.03 kg/m3, 3.10 kJ/kgK
+Cookie added to batch 9: 1262.56 kg/m3, 2.90 kJ/kgK
+Cookie added to batch 9: 1242.56 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 9: 1257.68 kg/m3, 2.88 kJ/kgK
+Cookie added to batch 9: 1230.71 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 9: 1262.56 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 9: 1266.49 kg/m3, 2.76 kJ/kgK
+Cookie added to batch 9: 1258.61 kg/m3, 3.08 kJ/kgK
+Cookie added to batch 9: 1265.89 kg/m3, 3.12 kJ/kgK
+Cookie added to batch 9: 1256.30 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 9: 1264.73 kg/m3, 3.03 kJ/kgK
+Cookie added to batch 9: 1243.07 kg/m3, 2.80 kJ/kgK
+Cookie added to batch 9: 1260.04 kg/m3, 3.06 kJ/kgK
+Cookie added to batch 9: 1246.46 kg/m3, 2.74 kJ/kgK
+Cookie added to batch 9: 1265.30 kg/m3, 2.82 kJ/kgK
+Cookie added to batch 9: 1243.07 kg/m3, 2.84 kJ/kgK
+Cookie added to batch 9: 1260.04 kg/m3, 3.11 kJ/kgK
+Cookie added to batch 9: 1258.61 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 9: 1269.80 kg/m3, 3.04 kJ/kgK
+Cookie added to batch 9: 1250.98 kg/m3, 3.00 kJ/kgK
+Cookie added to batch 9: 1241.51 kg/m3, 2.86 kJ/kgK
+Cookie added to batch 9: 1269.80 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 9: 1250.53 kg/m3, 2.96 kJ/kgK
+Cookie added to batch 9: 1244.56 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 9: 1269.09 kg/m3, 2.87 kJ/kgK
+Cookie added to batch 9: 1245.04 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 9: 1248.30 kg/m3, 2.94 kJ/kgK
+Cookie added to batch 9: 1250.53 kg/m3, 3.02 kJ/kgK
+Cookie added to batch 9: 1263.62 kg/m3, 3.15 kJ/kgK
+Cookie added to batch 9: 1263.09 kg/m3, 3.07 kJ/kgK
+Cookie added to batch 9: 1241.51 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 9: 1265.89 kg/m3, 3.18 kJ/kgK
+Cookie added to batch 9: 1235.51 kg/m3, 2.99 kJ/kgK
+Cookie added to batch 9: 1251.42 kg/m3, 2.93 kJ/kgK
+Cookie added to batch 9: 1253.62 kg/m3, 3.01 kJ/kgK
+Cookie added to batch 9: 1252.30 kg/m3, 2.81 kJ/kgK
+Cookie added to batch 9: 1239.87 kg/m3, 2.89 kJ/kgK
+Cookie added to batch 9: 1261.53 kg/m3, 2.91 kJ/kgK
+Cookie added to batch10: 1242.56 kg/m3, 3.16 kJ/kgK
+Cookie added to batch10: 1252.30 kg/m3, 2.94 kJ/kgK
+Cookie added to batch10: 1249.64 kg/m3, 2.99 kJ/kgK
+Cookie added to batch10: 1257.68 kg/m3, 2.92 kJ/kgK
+Cookie added to batch10: 1262.04 kg/m3, 2.93 kJ/kgK
+Cookie added to batch10: 1263.62 kg/m3, 2.97 kJ/kgK
+Cookie added to batch10: 1239.87 kg/m3, 2.93 kJ/kgK
+Cookie added to batch10: 1264.17 kg/m3, 2.82 kJ/kgK
+Cookie added to batch10: 1261.03 kg/m3, 2.86 kJ/kgK
+Cookie added to batch10: 1281.25 kg/m3, 2.97 kJ/kgK
+Cookie added to batch10: 1258.61 kg/m3, 2.93 kJ/kgK
+Cookie added to batch10: 1262.56 kg/m3, 2.89 kJ/kgK
+Cookie added to batch10: 1255.40 kg/m3, 3.01 kJ/kgK
+Cookie added to batch10: 1258.14 kg/m3, 2.91 kJ/kgK
+Cookie added to batch10: 1267.11 kg/m3, 2.99 kJ/kgK
+Cookie added to batch10: 1260.53 kg/m3, 3.05 kJ/kgK
+Cookie added to batch10: 1242.56 kg/m3, 2.72 kJ/kgK
+Cookie added to batch10: 1248.30 kg/m3, 2.89 kJ/kgK
+Cookie added to batch10: 1242.04 kg/m3, 3.00 kJ/kgK
+Cookie added to batch10: 1249.64 kg/m3, 3.04 kJ/kgK
+Cookie added to batch10: 1252.30 kg/m3, 2.98 kJ/kgK
+Cookie added to batch10: 1257.22 kg/m3, 2.86 kJ/kgK
+Cookie added to batch10: 1232.48 kg/m3, 2.99 kJ/kgK
+Cookie added to batch10: 1234.06 kg/m3, 2.95 kJ/kgK
+Cookie added to batch10: 1239.87 kg/m3, 2.97 kJ/kgK
+Cookie added to batch10: 1245.99 kg/m3, 3.19 kJ/kgK
+Cookie added to batch10: 1271.31 kg/m3, 2.91 kJ/kgK
+Cookie added to batch10: 1269.80 kg/m3, 3.00 kJ/kgK
+Cookie added to batch10: 1248.30 kg/m3, 2.85 kJ/kgK
+Cookie added to batch10: 1248.75 kg/m3, 2.75 kJ/kgK
+Cookie added to batch10: 1252.74 kg/m3, 3.00 kJ/kgK
+Cookie added to batch10: 1259.56 kg/m3, 2.87 kJ/kgK
+Cookie added to batch10: 1249.64 kg/m3, 2.73 kJ/kgK
+Cookie added to batch10: 1244.56 kg/m3, 3.12 kJ/kgK
+Cookie added to batch10: 1248.30 kg/m3, 2.94 kJ/kgK
+Cookie added to batch10: 1238.11 kg/m3, 2.76 kJ/kgK
+Cookie added to batch10: 1249.20 kg/m3, 3.02 kJ/kgK
+Cookie added to batch10: 1237.49 kg/m3, 2.90 kJ/kgK
+Cookie added to batch10: 1243.57 kg/m3, 2.87 kJ/kgK
+Cookie added to batch10: 1253.18 kg/m3, 2.74 kJ/kgK
+Cookie added to batch10: 1271.31 kg/m3, 2.93 kJ/kgK
+Cookie added to batch10: 1256.30 kg/m3, 3.05 kJ/kgK
+Cookie added to batch10: 1256.30 kg/m3, 2.83 kJ/kgK
+Cookie added to batch10: 1244.56 kg/m3, 2.84 kJ/kgK
+Cookie added to batch10: 1257.68 kg/m3, 3.03 kJ/kgK
+Cookie added to batch10: 1256.30 kg/m3, 2.81 kJ/kgK
+Cookie added to batch10: 1239.30 kg/m3, 2.96 kJ/kgK
+Cookie added to batch10: 1242.56 kg/m3, 3.04 kJ/kgK
+Cookie added to batch10: 1246.46 kg/m3, 2.91 kJ/kgK
+Cookie added to batch10: 1246.46 kg/m3, 2.91 kJ/kgK
+Cookie added to batch10: 1256.30 kg/m3, 3.06 kJ/kgK
+Cookie added to batch10: 1242.04 kg/m3, 2.81 kJ/kgK
+Cookie added to batch10: 1250.53 kg/m3, 3.01 kJ/kgK
+Cookie added to batch10: 1268.41 kg/m3, 3.12 kJ/kgK
+Cookie added to batch10: 1267.75 kg/m3, 2.93 kJ/kgK
+Cookie added to batch10: 1242.04 kg/m3, 2.89 kJ/kgK
+Cookie added to batch10: 1252.30 kg/m3, 2.81 kJ/kgK
+Cookie added to batch10: 1244.07 kg/m3, 2.90 kJ/kgK
+Cookie added to batch10: 1247.84 kg/m3, 2.87 kJ/kgK
+Cookie added to batch10: 1269.80 kg/m3, 2.88 kJ/kgK
+Cookie added to batch10: 1246.46 kg/m3, 3.01 kJ/kgK
+Cookie added to batch10: 1249.64 kg/m3, 3.02 kJ/kgK
+Cookie added to batch10: 1234.06 kg/m3, 3.10 kJ/kgK
+Cookie added to batch10: 1254.07 kg/m3, 2.84 kJ/kgK
+Cookie added to batch10: 1245.99 kg/m3, 2.97 kJ/kgK
+Cookie added to batch10: 1237.49 kg/m3, 3.07 kJ/kgK
+Cookie added to batch10: 1242.56 kg/m3, 3.05 kJ/kgK
+Cookie added to batch10: 1244.56 kg/m3, 3.15 kJ/kgK
+Cookie added to batch10: 1262.04 kg/m3, 3.07 kJ/kgK
+Cookie added to batch10: 1254.96 kg/m3, 2.88 kJ/kgK
+Cookie added to batch10: 1260.53 kg/m3, 3.07 kJ/kgK
+Cookie added to batch10: 1256.30 kg/m3, 2.76 kJ/kgK
+Cookie added to batch10: 1260.04 kg/m3, 3.02 kJ/kgK
+Cookie added to batch10: 1252.74 kg/m3, 2.87 kJ/kgK
+Cookie added to batch10: 1266.49 kg/m3, 3.04 kJ/kgK
+Cookie added to batch10: 1270.54 kg/m3, 2.94 kJ/kgK
+Cookie added to batch10: 1246.46 kg/m3, 2.62 kJ/kgK
+Cookie added to batch10: 1260.53 kg/m3, 3.12 kJ/kgK
+Cookie added to batch10: 1223.35 kg/m3, 3.12 kJ/kgK
+Cookie added to batch10: 1265.89 kg/m3, 3.07 kJ/kgK
+Cookie added to batch10: 1249.64 kg/m3, 2.82 kJ/kgK
+Cookie added to batch10: 1241.51 kg/m3, 2.86 kJ/kgK
+Cookie added to batch10: 1258.61 kg/m3, 2.89 kJ/kgK
+Cookie added to batch10: 1250.09 kg/m3, 3.04 kJ/kgK
+Cookie added to batch10: 1255.85 kg/m3, 2.98 kJ/kgK
+Cookie added to batch10: 1248.75 kg/m3, 3.03 kJ/kgK
+Cookie added to batch10: 1270.54 kg/m3, 3.15 kJ/kgK
+Cookie added to batch10: 1250.09 kg/m3, 2.98 kJ/kgK
+Cookie added to batch10: 1241.51 kg/m3, 3.04 kJ/kgK
+Cookie added to batch10: 1256.30 kg/m3, 3.03 kJ/kgK
+Cookie added to batch10: 1256.76 kg/m3, 2.86 kJ/kgK
+Cookie added to batch10: 1275.90 kg/m3, 2.94 kJ/kgK
+Cookie added to batch10: 1239.30 kg/m3, 3.01 kJ/kgK
+Cookie added to batch10: 1249.64 kg/m3, 3.00 kJ/kgK
+Cookie added to batch10: 1258.14 kg/m3, 3.17 kJ/kgK
+Cookie added to batch10: 1242.04 kg/m3, 3.03 kJ/kgK
+Cookie added to batch10: 1269.09 kg/m3, 3.00 kJ/kgK
+Cookie added to batch10: 1261.53 kg/m3, 3.01 kJ/kgK
+Cookie added to batch10: 1252.30 kg/m3, 2.73 kJ/kgK
+Cookie added to batch10: 1255.85 kg/m3, 2.94 kJ/kgK
