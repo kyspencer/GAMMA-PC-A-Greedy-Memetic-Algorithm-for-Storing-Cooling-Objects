@@ -229,7 +229,7 @@ class MOCookieProblem:
         # this, so if error output is present, algorithm has a bug.
         itemspresent = np.sum(x, axis=0)
         for j in range(self.n):
-            if itemspresent[j] > 1:
+            if itemspresent[j] != 1:
                 raise RuntimeError('Solution {0} has a physicality error: '
                                    'item {1}'.format(solid, j))
 
