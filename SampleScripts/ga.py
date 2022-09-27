@@ -6,14 +6,6 @@
 
 import numpy as np
 import random
-
-
-def main():
-    print('This python script contains functions used in genetic algorithms:')
-    print('  - binsel(): binary tournament selection')
-    print('  - elitism(): select best individual')
-    print('  - xover(): single-point crossover')
-    print('  - oldnew(): no replacement check')
     
 
 def binsel(rt, pop, mode):
@@ -79,7 +71,8 @@ def xover(q, n, prob):
     nover = int(n / 2)  # number of crossover matches to make
     newgenes = []
     for i in range(n):
-        newgenes.append(q[i].getgenes())
+        newgenes.append(q[i].getgenes().copy())
+        
     for i in range(nover):
         a = random.randint(0, n-1)
         b = random.randint(0, n-1)
@@ -108,7 +101,8 @@ def xover_mv(q, pop, prob):
         if p <= prob:
             changed.append(q[a])
             changed.append(q[b])
-            chroma, chromb = xover_realgene(q[a].getgenes(), q[b].getgenes())
+            chroma, chromb = xover_realgene(q[a].getgenes().copy(),
+                                            q[b].getgenes().copy())
             tfilla, tfillb = xover_tfill(q[a], q[b])
             newgenes.append((chroma, tfilla))
             newgenes.append((chromb, tfillb))
@@ -181,7 +175,7 @@ def mutat_mv(q, newgenes, pop, prob):
         if p <= prob:
             if m < len(q):
                 changed.append(q[m])
-                chrom = mutat_realgene(q[m].getgenes())
+                chrom = mutat_realgene(q[m].getgenes().copy())
                 tfill = mutat_tfill(q[m].gettfill().copy(), tdiff_variability)
                 newgenes.append((chrom, tfill))
             else:
@@ -197,10 +191,26 @@ def mutat_mv(q, newgenes, pop, prob):
 
 
 def mutat_realgene(chromosome):
-    # This module mutates the real-encoded chromosome by pair swap
+    """This module mutates the real-encoded chromosome by pair swap.
+
+    Input
+    -----
+    chromosome : list
+        List of cookie indices indicating the order in which they
+        will be packed.
+
+    Returns
+    -------
+    chromosome : list
+        Reordered list with one pair swapped.
+    """
     n = len(chromosome)
     i = random.randint(0, n - 1)
     j = random.randint(0, n - 1)
+    while i == j:
+        j = random.randint(0, n - 1)
+
+    # Pair swap
     chromosome[i], chromosome[j] = chromosome[j], chromosome[i]
     return chromosome
 
@@ -266,4 +276,8 @@ def sampletfills(q, newgenes):
 
 
 if __name__ == '__main__':
-    main()
+    print('This python script contains functions used in genetic algorithms:\n'
+          '  - binsel(): binary tournament selection\n'
+          '  - elitism(): select best individual\n'
+          '  - xover(): single-point crossover\n'
+          '  - oldnew(): no replacement check')
