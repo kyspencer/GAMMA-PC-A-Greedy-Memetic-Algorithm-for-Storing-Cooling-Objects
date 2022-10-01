@@ -72,7 +72,7 @@ def xover(q, n, prob):
     newgenes = []
     for i in range(n):
         newgenes.append(q[i].getgenes().copy())
-        
+
     for i in range(nover):
         a = random.randint(0, n-1)
         b = random.randint(0, n-1)

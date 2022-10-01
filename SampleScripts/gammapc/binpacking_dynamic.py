@@ -124,7 +124,7 @@ def dpmove(m, r, item, tfill, weights, t_range, onrack):
     for i in range(m):
         pack = packable(r[i], tfill[i], item)
         if all(pack) is True:
-            tk = np.where(np.array(t_range) == tfill[i])[0]
+            tk = np.where(np.array(t_range, dtype=object) == tfill[i])[0]
             # Filling early will reduce onrack for all after time[tk]
             maxonrack_fromtk = max(onrack[tk[0]:])
             dparray[i] = weights[0] * r[i] + weights[1] * maxonrack_fromtk
@@ -166,7 +166,7 @@ def update_coolrack_variation(i, tfill, t_range, onrack):
     # removal of one cookie.
     # Determine if box i is newly opened or already established:
     if tfill[i] in t_range:
-        tk = np.where(np.array(t_range) == tfill[i])[0]
+        tk = np.where(np.array(t_range, dtype=object) == tfill[i])[0]
         for t in range(tk[0], len(t_range)):
             onrack[t] -= 1
     else:
@@ -175,7 +175,7 @@ def update_coolrack_variation(i, tfill, t_range, onrack):
             t_range.append(tfill[i])
             onrack.append(onrack[-1] - 1)
         else:
-            tklist = np.where(np.array(t_range) >= tfill[i])[0]
+            tklist = np.where(np.array(t_range, dtype=object) >= tfill[i])[0]
             t_range.insert(tklist[0], tfill[i])
             onrack.insert(tklist[0], onrack[tklist[0] - 1])
             for t in range(tklist[0], len(t_range)):
@@ -232,11 +232,11 @@ def initial(m, bpp):
     # This module initializes the elements common to all strategies.
     n = bpp.n                           # Number of cookies to sort
     c = int(bpp.getub())                # initialize max capacity
-    x = np.zeros((n, n), dtype=np.int)  # initialize x
-    y = np.zeros(n, dtype=np.int)       # initialize y
+    x = np.zeros((n, n), dtype=int)     # initialize x
+    y = np.zeros(n, dtype=int)          # initialize y
     for i in range(m):                  # initialize y
         y[i] = 1
-    r = np.zeros(n, dtype=np.int)       # initialize capacities
+    r = np.zeros(n, dtype=int)          # initialize capacities
     for i in range(m):                  # initialize r (residual matrix)
         r[i] = c
     return n, c, x, y, r

@@ -7,10 +7,6 @@ from __future__ import print_function
 from datetime import datetime
 
 
-def main():
-    print(' This module automates formatting of output for this project.')
-
-
 def startout(filename, n, end, data, method):
     import datetime
     startt = datetime.datetime.now()
@@ -88,4 +84,4 @@ def printvlrep(filename, vlrep):
 
 
 if __name__ == '__main__':
-    main()
+    ' This module automates formatting of output for this project.'

@@ -21,13 +21,16 @@ class GeneralTests(unittest.TestCase):
     def setUp(self):
         self.n = 24
         self.folder = 'tests/'
-        file = 'stubs/Cookies24.txt'
-        cookies = coolcookies.makeobjects(self.n, 6, self.folder+file)
-        moop = mop.MOCookieProblem(self.n, 8, 15, 2, cookies)
-        bpp = grasp.BPP(self.n, cookies, moop)
-        self.gen = algorithm.Generation(self.n, 50, 750, cookies, bpp, moop)
+
+        with pkg_resources.path(stubs, 'Cookies24.txt') as cookietext:
+            cookies = coolcookies.makeobjects(self.n, 6, cookietext)
+            moop = mop.MOCookieProblem(self.n, 8, 15, 2, cookies)
+            bpp = grasp.BPP(self.n, cookies, moop)
+            self.gen = algorithm.Generation(self.n, 50, 750, cookies, bpp, moop)
+
         # Make sure calling this doesn't create problems, no specific test
-        self.gen.initialq(self.folder + 'seed.txt')
+        with pkg_resources.path(stubs, 'seed.txt') as seed:
+            self.gen.initialq(seed)
 
     def test_run(self):
         # Algorithm
@@ -54,24 +57,29 @@ class GeneralTests(unittest.TestCase):
         # Initialize archive
         self.gen.makep()
         length = len(self.gen.archive)
+
         # Test fitness values: no adding
         u1 = [8, 25.0, 6000]
         mocksol = Mock()
         mocksol.getfits.return_value = u1
         mocksol.getid.return_value = 1001
         self.gen.add_to_archive(mocksol)
-        self.assertEqual(self.gen.archive.get(1001), None)
+        self.assertFalse(1001 in self.gen.archive.keys())
+
         # Test fitness values: adding but not removing
-        u2 = [5, 11.0, 6500]
+        u2 = [7, 7, 6500]
         mocksol.getfits.return_value = u2
         mocksol.getid.return_value = 1002
         self.gen.add_to_archive(mocksol)
+        self.assertIn(1002, self.gen.archive.keys())
         self.assertEqual(len(self.gen.archive), length + 1)
+
         # Test fitness values: adding and removing
         u3 = [4, 18.0, 5800]
         mocksol.getfits.return_value = u3
         mocksol.getid.return_value = 1003
         self.gen.add_to_archive(mocksol)
+        self.assertIn(1003, self.gen.archive.keys())
         self.assertEqual(len(self.gen.archive), length + 1)
 
     @unittest.skip('too much output')
@@ -106,29 +114,6 @@ class GeneralTests(unittest.TestCase):
         c0 = self.gen.sort_cluster_bycd(clusters[0])
         self.assertLess(self.gen.archive.get(c0[0]).getcd(),
                         self.gen.archive.get(c0[-1]).getcd())
-
-
-# class OutputTests(unittest.TestCase):
-#
-#     def test_savexys(self):
-#         ndset = []
-#         mock = Mock()
-#         mock.getindex.return_value = 1
-#         mock.getx.return_value = np.matrix([[1, 0, 0, 0, 0],
-#                                             [0, 1, 0, 0, 0],
-#                                             [0, 0, 1, 0, 0],
-#                                             [0, 0, 0, 1, 0],
-#                                             [0, 0, 0, 0, 1]])
-#         mock.gety.return_value = np.ones(5)
-#         for m in range(10):
-#             ndset.append(mock)
-#         nsgaii.savexys(ndset, 'tests/')
-#         h5f = h5py.File('tests/xymatrices.h5', 'r')
-#         gname = h5f.keys()
-#         self.assertEqual(gname[0], u'xmatrices')
-#         xitems = h5f[gname[0]].items()
-#         yitems = h5f[gname[1]].items()
-#         self.assertEqual(len(xitems), len(yitems))
 
 
 if __name__ == '__main__':

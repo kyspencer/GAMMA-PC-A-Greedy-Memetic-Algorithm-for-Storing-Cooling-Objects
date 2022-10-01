@@ -12,6 +12,7 @@ from scipy.stats import norm
 class Cookie:
     volume = 1.2e-5  # m^3
     surfarea = 4.9e-3  # m^2
+
     def __init__(self, density, specificheat, batch):
         self.rho = density
         self.cp = specificheat
@@ -121,6 +122,7 @@ def makedatafile(n, filename, cookies):
         print('Cookie added to batch{0:2d}: {1:7.2f} kg/m3, {2:4.2f} kJ/kgK'
               .format(batch, density, heatcap), file=outfile)
     outfile.close()
+
 
 if __name__ == '__main__':
     #filename = input('Please enter the name of your input file: ')

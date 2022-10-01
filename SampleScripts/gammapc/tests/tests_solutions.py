@@ -17,26 +17,35 @@ from ..coolcookies import makeobjects
 from .. import solutions_dynamic as sols
 from . import stubs  # relative-import the *package* containing the stubs
 
+
 class MultiSolTests(unittest.TestCase):
 
     def setUp(self):
-        storedchrom = np.load('tests/chrom8.npz')
-        self.chrom = storedchrom[storedchrom.files[0]]
-        storedtfill = np.load('tests/tfill8.npz')
-        self.tfill = storedtfill[storedtfill.files[0]]
-        cookies = makeobjects(1000, 100, 'tests/Cookies1000.txt')
-        self.bpp = BPP(1000, 24, 300, cookies)
+        with pkg_resources.path(stubs, 'chrom8.npz') as chrom:
+            storedchrom = np.load(chrom)
+            self.chrom = storedchrom[storedchrom.files[0]]
+
+        with pkg_resources.path(stubs, 'tfill8.npz') as tfill:
+            storedtfill = np.load(tfill)
+            self.tfill = storedtfill[storedtfill.files[0]]
+
+        with pkg_resources.path(stubs, 'Cookies1000.txt') as cookietext:
+            cookies = makeobjects(1000, 100, cookietext)
+            self.bpp = BPP(1000, 24, 300, cookies)
 
     def test_init(self):
         solution = sols.MultiSol(8, self.chrom, self.tfill, self.bpp)
-        open = solution.getopenbins()
-        self.assertEqual(len(solution.vlrep), open)
-        self.assertEqual(np.sum(solution.getx()[open,:]), 0)
+        openbins = solution.getopenbins()
+
+        self.assertEqual(len(solution.vlrep), openbins)
+        self.assertEqual(np.sum(solution.getx()[openbins, :]), 0)
 
     def test_getvlrep(self):
         solution = sols.MultiSol(8, self.chrom, self.tfill, self.bpp)
+
         vlrep = solution.getvlrep()
         self.assertTrue(vlrep)
+
         vlrepi = solution.getvlrep(i=0)
         self.assertEqual(vlrep[0], vlrepi)
 
@@ -48,12 +57,14 @@ class CookieSolTests(unittest.TestCase):
         # variable length representation
         vlrep = [[0, 1, 2, 4], [3, 5], [6, 7, 8, 9], [10, 11], [12, 13, 14, 15],
                  [16, 17], [18, 19, 20], [21, 22, 23]]
+
         # t_fill
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill_unique = [885.0, 722.0, 1507.0, 1428.0, 2210.0,
                         1958.0, 2764.0, 2509.0]
         for i in range(len(vlrep)):
             tfill[i] = tfill_unique[i]
+
         # x and y matrices
         y = np.zeros(self.n)
         y[:len(vlrep)] = 1
@@ -61,6 +72,7 @@ class CookieSolTests(unittest.TestCase):
         for i in range(len(vlrep)):
             for j in vlrep[i]:
                 x[i, j] = 1
+
         self.newsol = sols.CookieSol(0, x, y, vlrep, tfill)
 
     def test_moveitem(self):
@@ -84,6 +96,7 @@ class SolutionFunctionTests(unittest.TestCase):
         for m in range(1, 5):
             newsol = sols.Sol(m, sample(range(10), 10), np.zeros((10, 1), dtype=int))
             archive[m] = newsol
+
         q = []
         genes = [(range(10), np.zeros((10, 1), dtype=int)),
                  (sample(range(10), 10), np.zeros((10, 1), dtype=int))]

@@ -27,49 +27,70 @@ class BinpackingTests(unittest.TestCase):
         # Mock cookie object
         self.mock = Mock()
         self.mock.getbatch.return_value = 3
+
         # Class BPP stub
-        cookies = coolcookies.makeobjects(24, 6, 'tests/Cookies24.txt')
-        self.bpp = bp.BPP(24, 8, 15, cookies)
+        with pkg_resources.path(stubs, 'Cookies24.txt') as cookietext:
+            cookies = coolcookies.makeobjects(24, 6, cookietext)
+            self.bpp = bp.BPP(24, 8, 15, cookies)
+
         # tfill stubs
-        self.tfill1 = np.zeros(self.bpp.n, dtype=np.float)
-        self.tfill2 = np.zeros(self.bpp.n, dtype=np.float)
+        self.tfill1 = np.zeros(self.bpp.n, dtype=np.float64)
+        self.tfill2 = np.zeros(self.bpp.n, dtype=np.float64)
         tfill_unique = [800, 900, 950, 1000, 1500, 1800, 2400, 2700]
         tfill_unique2 = [800, 900, 950, 1000, 1050, 1100, 1200, 1300]
         for i in range(len(tfill_unique)):
             self.tfill1[i] = tfill_unique[i]
             self.tfill2[i] = tfill_unique2[i]
 
-    def test_llmove(self):
+        # For dpmove tests:
+        self.weights = [1.0 / self.bpp.getub(), 1.0 / self.bpp.rack]  # 1/boxcap, 1/coolrackcap
+        self.t_range, self.onrack = bp.get_coolrack_variation(self.tfill1, self.bpp)
+
+    def test_llmove_open_bin(self):
         # Test for an open bin
         r1 = np.array([0, 4, 7, 14, 3, 17, 3, 5, 0, 0])
         i1 = bp.llmove(10, 8, r1, self.mock, self.tfill1)
         self.assertEqual(i1, 7)
+
+    def test_llmove_all_bins_full(self):
         # Test for all bins full
         r2 = np.array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
         i2 = bp.llmove(10, 8, r2, self.mock, self.tfill1)
         self.assertEqual(i2, 8)
+
+    def test_llmove_all_bins_too_early(self):
         # Test for all bins too early
+        r1 = np.array([0, 4, 7, 14, 3, 17, 3, 5, 0, 0])
         i3 = bp.llmove(10, 8, r1, self.mock, self.tfill2)
         self.assertEqual(i3, 8)
 
-    def test_dpmove(self):
-        # Set up
-        weights = [1.0 / self.bpp.getub(), 1.0 / self.bpp.rack]  # 1/boxcap, 1/coolrackcap
-        r1 = np.array([8, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-        t_range, onrack = bp.get_coolrack_variation(self.tfill1, self.bpp)
+    def test_dpmove_tfill_true(self):
         # Test for an open bin - with tfill true
+        r1 = np.array([8, 0, 0, 0, 0, 0, 0, 0, 0, 0])
         cookie = self.bpp.items.get(0)
-        i1a = bp.dpmove(1, r1, cookie, self.tfill1, weights, t_range, onrack)
+        i1a = bp.dpmove(1, r1, cookie, self.tfill1,
+                        self.weights, self.t_range, self.onrack)
         self.assertEqual(i1a, 0)
+
+    def test_dpmove_tfill_false(self):
         # Test for an open bin - with tfill false
-        i1b = bp.dpmove(1, r1, self.mock, self.tfill1, weights, t_range, onrack)
+        r1 = np.array([8, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+        i1b = bp.dpmove(1, r1, self.mock, self.tfill1,
+                        self.weights, self.t_range, self.onrack)
         self.assertEqual(i1b, 1)
+
+    def test_dpmove_all_bins_full(self):
         # Test for all bins full
         r2 = np.array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-        i2 = bp.dpmove(8, r2, self.mock, self.tfill1, weights, t_range, onrack)
+        i2 = bp.dpmove(8, r2, self.mock, self.tfill1,
+                       self.weights, self.t_range, self.onrack)
         self.assertEqual(i2, 8)
+
+    def test_dpmove_all_bins_too_early(self):
         # Test for all bins too early
-        i3 = bp.dpmove(8, r1, self.mock, self.tfill2, weights, t_range, onrack)
+        r1 = np.array([8, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+        i3 = bp.dpmove(8, r1, self.mock, self.tfill2,
+                       self.weights, self.t_range, self.onrack)
         self.assertEqual(i3, 8)
 
     def test_combo(self):
@@ -87,7 +108,7 @@ class BinpackingTests(unittest.TestCase):
         fillbins = randint(self.bpp.lb, self.bpp.n)
         # Find tintervals
         tintervals = (600 * (self.bpp.nbatches + 1) - tbox0) / (max(fillbins - 1, 1))
-        tfill = np.zeros(self.bpp.n, dtype=np.float)
+        tfill = np.zeros(self.bpp.n, dtype=np.float64)
         for i in range(fillbins):
             tfill[i] = tintervals * i + tbox0
         trange, onrack = bp.get_coolrack_variation(tfill, self.bpp)
@@ -114,8 +135,8 @@ class BinpackingTests(unittest.TestCase):
         self.assertEqual(len(trange), len(onrack))
 
     def test_addtobin(self):
-        x = np.zeros((10, 10), dtype=np.int)  # initialize x
-        y = np.zeros(10, dtype=np.int)        # initialize y
+        x = np.zeros((10, 10), dtype=int)  # initialize x
+        y = np.zeros(10, dtype=int)        # initialize y
         # Test for an open bin
         r1 = np.array([0, 4, 7, 14, 3, 17, 3, 5, 0, 0])
         m, x, y, r, tfill1 = bp.addtobin(5, 1, 8, x, y, r1, 24, self.mock, self.tfill1)
@@ -149,20 +170,28 @@ class BinpackingTests(unittest.TestCase):
 
     def test_coordarrays1(self):
         # Set up
-        chromstored = np.load('tests/chrom0.npz')
-        chromname = chromstored.files
-        chrom0 = chromstored[chromname[0]]
-        tfillstored = np.load('tests/tfill0.npz')
-        tfillname = tfillstored.files
-        tfill0 = tfillstored[tfillname[0]]
-        cookies = coolcookies.makeobjects(1000, 100, 'tests/Cookies1000.txt')
-        bpp = bp.BPP(1000, 24, 300, cookies)
+        with pkg_resources.path(stubs, 'chrom0.npz') as chrom0:
+            chromstored = np.load(chrom0, fix_imports=True)
+            chromname = chromstored.files
+            chrom0 = chromstored[chromname[0]]
+
+        with pkg_resources.path(stubs, 'tfill0.npz') as tfill0:
+            tfillstored = np.load(tfill0, fix_imports=True)
+            tfillname = tfillstored.files
+            tfill0 = tfillstored[tfillname[0]]
+
+        with pkg_resources.path(stubs, 'Cookies1000.txt') as cookietext:
+            cookies = coolcookies.makeobjects(1000, 100, cookietext)
+            bpp = bp.BPP(1000, 24, 300, cookies)
+
         moop = MOCookieProblem(1000, 24, 300, 8, cookies)
         solution = MultiSol(0, chrom0, tfill0, bpp)
         checkformismatch(solution)
+
         testviolations = moop.rackcapacity(solution.getx(), solution.gettfill())
         moop.fixcoolingrack(testviolations, solution)
         checkformismatch(solution)
+
         # Test
         solution = bp.coordarrays(solution)
         out = StringIO()
@@ -183,8 +212,8 @@ class BinpackingTests(unittest.TestCase):
         self.assertEqual(s, 3)
     #
     # def test_repackitems_newbin(self):
-    #     x = np.zeros((5, 5), dtype=np.int)
-    #     y = np.zeros(5, dtype=np.int)
+    #     x = np.zeros((5, 5), dtype=int)
+    #     y = np.zeros(5, dtype=int)
     #     # Test open new bin
     #     y[0] = 1
     #     for j in range(5):
@@ -211,8 +240,8 @@ class BinpackingTests(unittest.TestCase):
     #     self.assertEqual(tfill[2], 0)
     #
     # def test_initializerepack(self):
-    #     x = np.zeros((5, 5), dtype=np.int)
-    #     y = np.zeros(5, dtype=np.int)
+    #     x = np.zeros((5, 5), dtype=int)
+    #     y = np.zeros(5, dtype=int)
     #     # Test open new bin
     #     y[0] = 1
     #     for j in range(5):
@@ -234,15 +263,15 @@ class BinpackingTests(unittest.TestCase):
     #     self.assertEqual(r[0], 21)
 
     def test_openonebin(self):
-        x = np.zeros((5, 5), dtype=np.int)
-        y = np.zeros(5, dtype=np.int)
+        x = np.zeros((5, 5), dtype=int)
+        y = np.zeros(5, dtype=int)
         # Test open new bin
         y[0] = 1
         for j in range(5):
             x[0, j] = 1
-        tfill = np.zeros(5, dtype=np.float)
+        tfill = np.zeros(5, dtype=np.float64)
         tfill[0] = 400
-        r = np.zeros(self.bpp.n, dtype=np.int)
+        r = np.zeros(self.bpp.n, dtype=int)
         y, tfill, r, m = bp.openonebin(1, y, tfill, r, 24, 750)
         self.assertEqual(tfill[1], 750)
         self.assertEqual(m, 2)
@@ -251,19 +280,26 @@ class BinpackingTests(unittest.TestCase):
 class CoordArraysTests(unittest.TestCase):
 
     def setUp(self):
-        chromstored = np.load('tests/chrom0.npz')
-        chromname = chromstored.files
-        self.chrom0 = chromstored[chromname[0]]
-        tfillstored = np.load('tests/tfill0.npz')
-        tfillname = tfillstored.files
-        self.tfill0 = tfillstored[tfillname[0]]
-        newgenesstored = np.load('tests/newgenes129.npz')
-        newgenesfiles = newgenesstored.files
-        self.chrom = newgenesstored[newgenesfiles[0]]
-        self.tfill = newgenesstored[newgenesfiles[1]]
-        cookies = coolcookies.makeobjects(1000, 100, 'tests/Cookies1000.txt')
-        self.bpp = bp.BPP(1000, 24, 300, cookies)
-        self.moop = MOCookieProblem(1000, 24, 300, 8, cookies)
+        with pkg_resources.path(stubs, 'chrom0.npz') as chrom0:
+            chromstored = np.load(chrom0, fix_imports=True)
+            chromname = chromstored.files
+            self.chrom0 = chromstored[chromname[0]]
+
+        with pkg_resources.path(stubs, 'tfill0.npz') as tfill0:
+            tfillstored = np.load(tfill0, fix_imports=True)
+            tfillname = tfillstored.files
+            self.tfill0 = tfillstored[tfillname[0]]
+
+        with pkg_resources.path(stubs, 'newgenes129.npz') as newgenes129:
+            newgenesstored = np.load(newgenes129)
+            newgenesfiles = newgenesstored.files
+            self.chrom = newgenesstored[newgenesfiles[0]]
+            self.tfill = newgenesstored[newgenesfiles[1]]
+
+        with pkg_resources.path(stubs, 'Cookies1000.txt') as cookietext:
+            cookies = coolcookies.makeobjects(1000, 100, cookietext)
+            self.bpp = bp.BPP(1000, 24, 300, cookies)
+            self.moop = MOCookieProblem(1000, 24, 300, 8, cookies)
 
     def test_missing_bin_in_bpp_make(self):
         x, y, tfill = bp.ed(self.chrom, self.tfill, self.bpp)
@@ -274,6 +310,7 @@ class CoordArraysTests(unittest.TestCase):
         solution = MultiSol(130, self.chrom, self.tfill, self.bpp)
         testviolations = self.moop.rackcapacity(solution.getx(), solution.gettfill())
         self.moop.fixcoolingrack(testviolations, solution)
+
         solution = bp.coordarrays(solution)
         x = solution.getx()
         y = solution.gety()

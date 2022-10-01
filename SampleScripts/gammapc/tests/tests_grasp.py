@@ -24,28 +24,33 @@ class GRASPTests(unittest.TestCase):
 
     def setUp(self):
         self.n = 24
-        cookies = coolcookies.\
-            makeobjects(self.n, 6, '/Users/gelliebeenz/Documents/Python/ObjectiveMethod/'
-                                   'TimeDependent/ToyProblem/Cookies24.txt')
-        self.moop = mop.MOCookieProblem(self.n, 8, 15, 2, cookies)
+
+        with pkg_resources.path(stubs, 'Cookies24.txt') as cookietext:
+            cookies = coolcookies.makeobjects(self.n, 6, cookietext)
+            self.moop = mop.MOCookieProblem(self.n, 8, 15, 2, cookies)
+
         self.bpp = grasp.BPP(self.n, cookies, self.moop)
+
         # Make stub solution ------------------------------------------------------
         # variable length representation
         vlrep = [[0, 1, 2, 4], [3, 5], [6, 7, 8, 9], [10, 11], [12, 13, 14, 15],
                  [16, 17], [18, 19, 20], [21, 22, 23]]
+
         # t_fill
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill_unique = [885.0, 722.0, 1507.0, 1428.0, 2210.0,
                         1958.0, 2764.0, 2509.0]
         for i in range(len(vlrep)):
             tfill[i] = tfill_unique[i]
+
         # x and y matrices
-        y = np.zeros(self.n, dtype=np.int)
+        y = np.zeros(self.n, dtype=int)
         y[:len(vlrep)] = 1
         x = np.zeros((self.n, self.n))
         for i in range(len(vlrep)):
             for j in vlrep[i]:
                 x[i, j] = 1
+
         self.newsol = sols.CookieSol(0, x, y, vlrep, tfill)
         self.newsol = self.bpp.checkandfit(self.newsol)
 
@@ -103,7 +108,7 @@ class GRASPTests(unittest.TestCase):
     def test_lsmove(self):
         vlrep = [[0, 1, 2, 4], [3, 5], [6, 7, 8, 9], [10, 11], [12, 13, 14, 15],
                  [16, 17], [18, 19, 20], [21, 22, 23]]
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill_unique = [885.0, 722.0, 1507.0, 1428.0, 2210.0,
                         1958.0, 2764.0, 2509.0]
         for i in range(len(vlrep)):
@@ -131,7 +136,7 @@ class GRASPTests(unittest.TestCase):
     def test_move_options(self):
         vlrep = [[1, 2, 3, 4, 6], [0, 5, 7, 8, 9, 10, 11, 13],
                  [12, 16], [14, 15, 17], [18, 19, 20], [21, 22, 23]]
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill_unique = [1441.0, 1651.0, 1799.0, 2233.0, 2543.0, 2833.0]
         for i in range(6):
             tfill[i] = tfill_unique[i]
@@ -146,7 +151,7 @@ class GRASPTests(unittest.TestCase):
     def test_getresiduals(self):
         vlrep = [[0, 1, 2, 4], [3, 5], [6, 7, 8, 9], [10, 11], [12, 13, 14, 15],
                  [16, 17], [18, 19, 20], [21, 22, 23]]
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill_unique = [885.0, 722.0, 1507.0, 1428.0, 2210.0,
                         1958.0, 2764.0, 2509.0]
         for i in range(len(vlrep)):
@@ -174,18 +179,20 @@ class GRASPTests(unittest.TestCase):
         self.assertEqual(r[7, 0], 5)
 
     def test_get_two_random_bins(self):
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill[:3] = [1765.,  2381.,  2532.]
         vlrep = [[0, 1, 2, 3, 8, 11, 4, 5], [9, 6, 7, 10, 12, 13, 14, 16],
                  [15, 21, 23, 22, 18, 19, 17, 20]]
+
         i1, i2 = self.bpp.get_two_random_bins(vlrep, tfill)
-        self.assertTrue(i1 in range(3))
-        self.assertTrue(i2 in range(3))
+        self.assertIn(i1, range(3))
+        self.assertIn(i2, range(3))
+        self.assertFalse((i1 == 0) and (i2 == 2))
 
     def test_get_hot_cold_bins(self):
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill[:3] = [1570.3, 2290.1, 3586]
-        q0bins = np.zeros(self.n, dtype=np.float)
+        q0bins = np.zeros(self.n, dtype=np.float64)
         q0bins[:3] = [23.03395164, 23.89092102, 14.58089498]
         vlrep = [[0, 1, 2, 3, 4, 5, 6, 8], [7, 9, 10, 11, 13, 14, 15, 17],
                  [12, 16, 18, 19, 20, 21, 22, 23]]
@@ -195,7 +202,7 @@ class GRASPTests(unittest.TestCase):
     def test_count_on_rack(self):
         vlrep = [[1, 2, 3, 4, 6], [0, 5, 7, 8, 9, 10, 11],
                  [12], [13, 14, 15, 17], [16, 22], [18, 19, 20, 21, 23]]
-        tfill = np.zeros(self.n, dtype=np.float)
+        tfill = np.zeros(self.n, dtype=np.float64)
         tfill_unique = [1441.0, 1651.0, 1799.0, 2233.0, 2543.0, 2833.0]
         for i in range(6):
             tfill[i] = tfill_unique[i]
@@ -215,10 +222,11 @@ class NewSolutionTests(unittest.TestCase):
     def setUp(self):
         beta = 5
         n = 24
-        cookies = coolcookies.\
-            makeobjects(n, 6, '/Users/gelliebeenz/Documents/Python/ObjectiveMethod/'
-                              'TimeDependent/ToyProblem/Cookies24.txt')
-        self.moop = mop.MOCookieProblem(n, 8, 15, 2, cookies)
+
+        with pkg_resources.path(stubs, 'Cookies24.txt') as cookietext:
+            cookies = coolcookies.makeobjects(n, 6, cookietext)
+            self.moop = mop.MOCookieProblem(n, 8, 15, 2, cookies)
+
         self.newbie1 = grasp.NewSolution(beta, n, cookies, self.moop)
         self.newbie2 = grasp.NewSolution(beta, n, cookies, self.moop)
         self.newbie3 = grasp.NewSolution(beta, n, cookies, self.moop)
@@ -269,7 +277,7 @@ class NewSolutionTests(unittest.TestCase):
         t_new = self.newbie1.get_feasible_tfilli(5, modes)
         tk = self.newbie1.find_t_in_fill_periods(t_new)
         self.assertTrue(t_new)
-        self.assertLess(self.newbie1.rcl_t.t_t[tk], t_new)
+        self.assertLessEqual(self.newbie1.rcl_t.t_t[tk], t_new)
         self.assertLessEqual(t_new, self.newbie1.rcl_t.t_t[tk + 1])
 
     def test_find_new_time_value(self):
@@ -308,10 +316,11 @@ class NewSolutionfromChromTests(unittest.TestCase):
     def setUp(self):
         beta = 5
         n = 24
-        cookies = coolcookies. \
-            makeobjects(n, 6, '/Users/gelliebeenz/Documents/Python/ObjectiveMethod/'
-                              'TimeDependent/ToyProblem/Cookies24.txt')
-        self.moop = mop.MOCookieProblem(n, 8, 15, 2, cookies)
+
+        with pkg_resources.path(stubs, 'Cookies24.txt') as cookietext:
+            cookies = coolcookies.makeobjects(n, 6, cookietext)
+            self.moop = mop.MOCookieProblem(n, 8, 15, 2, cookies)
+
         self.newbie1 = grasp.NewSolution(beta, n, cookies, self.moop)
         self.chrom = [0, 1, 2, 8, 3, 4, 5, 7, 9, 10, 6, 11, 12, 13,
                       15, 16, 14, 17, 18, 19, 21, 20, 22, 23]
@@ -381,7 +390,7 @@ class RCLtimeTests(unittest.TestCase):
         self.rcl_t = grasp.RCLtime(15, 2, 6, 600, 4)
         vlrep = [[0, 1, 2, 4], [3, 5], [6, 7, 8, 9], [10, 11], [12, 13, 14, 15],
                  [16, 17], [18, 19, 20], [21, 22, 23]]
-        tfill = np.zeros(24, dtype=np.float)
+        tfill = np.zeros(24, dtype=np.float64)
         tfill_unique = [885.0, 722.0, 1507.0, 1428.0, 2210.0,
                         1958.0, 2764.0, 2509.0]
         for i in range(8):
@@ -401,9 +410,11 @@ class RCLtimeTests(unittest.TestCase):
 
     def test_get_new_t(self):
         trange = [t for t in range(10)]
-        rcl_t = grasp.RCLtime(1, 2, 0, 1, 9)
+        coolrack, fillcap, n_b, tbatch, nbatches = 5, 2, 2, 1, 9
+        rcl_t = grasp.RCLtime(coolrack, fillcap, n_b, tbatch, nbatches)
         t = rcl_t.get_new_t(trange[0])
-        self.assertLessEqual(t, 10.0)
+        self.assertGreaterEqual(t, trange[0])
+        self.assertLessEqual(t, trange[2])
 
     @unittest.skip('Unskip if need to consider precision again.')
     def test_get_new_t_precision(self):

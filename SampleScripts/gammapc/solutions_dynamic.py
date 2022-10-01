@@ -9,10 +9,6 @@ from numpy import allclose, sum, zeros
 from operator import itemgetter
 
 
-def main():
-    print('This file saves solutions in a bpp optimization.')
-
-
 def oldnew(archive, q, genes):
     # This module checks the new generation to see if its
     # members already exist or need to be created.
@@ -438,4 +434,4 @@ class PSOSol(Sol):
 
 
 if __name__ == '__main__':
-    main()
+    print('This file saves solutions in a bpp optimization.')

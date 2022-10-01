@@ -350,7 +350,7 @@ class Generation:
     def calc_sofit_byweights(self, solution, lambdas):
         # This function calculates the Tchebycheff single-objective fitness values
         # for a solution for a given set of weights
-        cluster_vector = np.zeros(len(lambdas), dtype=np.float)
+        cluster_vector = np.zeros(len(lambdas), dtype=np.float64)
         u = solution.getfits()
         for c in range(len(lambdas)):
             diff = np.subtract(u, self.ideal_values)
@@ -364,7 +364,7 @@ class Generation:
         lambdas = []
         for k in range(n_clustr):
             high = 1.0
-            lambdak = np.zeros(self.moop.nobj, dtype=np.float)
+            lambdak = np.zeros(self.moop.nobj, dtype=np.float64)
             for w in range(self.moop.nobj - 1):
                 lambdak[w] = random.uniform(0, high)
                 high -= lambdak[w]
@@ -511,7 +511,7 @@ class Generation:
     def update_local_search_probabilities(self):
         # This function updates the local search probabilities based on how
         # many archive solutions are included in the Pareto local search.
-        pls_size = np.zeros(self.moop.nobj, dtype=np.int)
+        pls_size = np.zeros(self.moop.nobj, dtype=int)
         for theta in range(self.moop.nobj):
             # Make quick list of options
             zideal = self.ideal_values[theta]
@@ -787,16 +787,9 @@ def checkformismatch(solution, out=sys.stdout):
                           .format(solution.getid(), j))
 
 
-def main():
-    # n = eval(input('Please enter the number of items to be sorted: \n'))
-    # folder = input('Please enter the name of the folder where your input file is: \n')
-    # datafile = input('Please enter the name of the input file: \n')
-    n = 24
-    folder = '/Users/gelliebeenz/Documents/Python/ObjectiveMethod/TimeDependent' \
-             '/NewMethod/Cookies24/Experiment01/'
-    datafile = 'Cookies24.txt'
-    algorithm(n, folder, datafile)
-
-
 if __name__ == '__main__':
-    main()
+    n = eval(input('Please enter the number of items to be sorted: \n'))
+    folder = input('Please enter the name of the folder where your input file is: \n')
+    datafile = input('Please enter the name of the input file: \n')
+
+    algorithm(n, folder, datafile)

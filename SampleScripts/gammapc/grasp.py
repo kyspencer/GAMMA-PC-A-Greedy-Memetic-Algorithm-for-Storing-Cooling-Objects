@@ -136,7 +136,7 @@ class BPP:
         while t > rcl_t.t_t[-1]:
             rcl_t.extend_fill_periods()
         # Find the period containing t_new
-        tlist = np.where(t >= np.array(rcl_t.t_t))[0]
+        tlist = np.where(t >= np.array(rcl_t.t_t, dtype=object))[0]
         return tlist[-1]
 
     def ls1(self, p, numls, solution):
@@ -208,7 +208,7 @@ class BPP:
         for iloop in range(half):
             # Find the emptiest bin's index number
             lengths = [len(i) for i in copy.getvlrep()]
-            i = np.argmin(np.array(lengths))
+            i = np.argmin(np.array(lengths, dtype=object))
             copy, r, rcl_t = self.empty_bin(i, copy, r, rcl_t)
             # If a nondominated solution wasn't found, return nothing
             copy = self.checkandfit(copy)
@@ -721,8 +721,8 @@ class BPP:
     def get_two_random_bins(self, vlrep, tfill):
         # This function returns two individual random bins that can swap cookies
         bin_pairs = list(combinations(range(len(vlrep)), 2))
-        for bp in range(len(bin_pairs)):
-            i1, i2 = random.choice(bin_pairs)
+        random.shuffle(bin_pairs)
+        for i1, i2 in bin_pairs:
             can_swap = self.good_match(vlrep, tfill, i1, i2)
             if can_swap:
                 return i1, i2
@@ -789,7 +789,7 @@ class BPP:
         # capacities, and the second column represents the maximum number of
         # cookies that can be added to the cooling rack right before tfill_i
         coolrack = self.moop.coolrack
-        r = np.zeros((self.n, 2), dtype=np.int)
+        r = np.zeros((self.n, 2), dtype=int)
         # Set box capacity residuals
         for i in range(len(vlrep)):
             r[i, 0] = self.moop.boxcap - len(vlrep[i])
@@ -859,10 +859,10 @@ class NewSolution:
         self.moop = moop            # Multiobjective problem class
         self.m = 0                  # initialize open bins count
         self.r = np.zeros((n, 2))   # Residual capacity matrix
-        self.x = np.zeros((n, n), dtype=np.int)
-        self.y = np.zeros(n, dtype=np.int)
+        self.x = np.zeros((n, n), dtype=int)
+        self.y = np.zeros(n, dtype=int)
         self.vlrep = []
-        self.tfill = np.zeros(n, dtype=np.float)
+        self.tfill = np.zeros(n, dtype=np.float64)
         # Initialize restricted candidate list
         n_b = self.n // self.moop.nbatches
         self.rcl_t = RCLtime(moop.coolrack, moop.fillcap, n_b,
@@ -1158,7 +1158,7 @@ class RCLtime:
         # This function adds the information from vlrep and tfill
         # into the trange and space lists
         # First fix the cooling rack related items
-        r2 = np.zeros(m, dtype=np.int)      # Collect residual values
+        r2 = np.zeros(m, dtype=int)      # Collect residual values
         i_lowtohigh = list(np.argsort(tfill[:m], axis=0))
         for i in i_lowtohigh:
             r2[i] = self.adapt_greedy_function_newbin(tfill[i],
@@ -1238,7 +1238,7 @@ class RCLtime:
     def find_least_worst_newt(self, tmin):
         # This function returns the least worst time for a box to be opened
         # based on tmin.
-        tklist = np.where(np.array(self.trange) >= tmin)[0]
+        tklist = np.where(np.array(self.trange, dtype=object) >= tmin)[0]
         max_space = self.space[tklist[0]]
         tmax = self.get_tmax(tmin, max_space)
         t_new = random.uniform(tmin + 1, tmax)
@@ -1253,7 +1253,7 @@ class RCLtime:
     def get_tmax(self, tmin, nmove):
         # This function determines if the get_new_t function needs to limit its
         # search to a max. value. If not, it returns the last trange value.
-        tklist = np.where(np.array(self.trange) > tmin)[0]
+        tklist = np.where(np.array(self.trange, dtype=object) > tmin)[0]
         for tk in tklist:
             if self.space[tk] - nmove <= 0:
                 return self.trange[tk]
@@ -1277,7 +1277,7 @@ class RCLtime:
             self.extend_timeline()
             return self.space[-2]
         else:
-            ilist = np.where(np.array(self.trange) >= t)[0]
+            ilist = np.where(np.array(self.trange, dtype=object) >= t)[0]
             if t == self.trange[ilist[0]]:
                 start = ilist[0]
             else:
@@ -1291,7 +1291,7 @@ class RCLtime:
     def adapt_greedy_function_addtobin(self, t):
         # This function updates the space and trange lists after a cookie is
         # added to a box and removed from the cooling rack at time t
-        tklist = np.where(np.array(self.trange) >= t)[0]
+        tklist = np.where(np.array(self.trange, dtype=object) >= t)[0]
         for tk in tklist:
             self.update_space(tk)
         return self.space[tklist[0]]
@@ -1299,8 +1299,8 @@ class RCLtime:
     def adapt_movebins(self, t1, t2):
         # This function updates the space list after a cookie is moved from
         # the box filled at t1 to the one filled at t2
-        tklist1 = np.where(np.array(self.trange) >= t1)[0]
-        tklist2 = np.where(np.array(self.trange) >= t2)[0]
+        tklist1 = np.where(np.array(self.trange, dtype=object) >= t1)[0]
+        tklist2 = np.where(np.array(self.trange, dtype=object) >= t2)[0]
         tklist = np.setxor1d(tklist1, tklist2)
         if t1 == t2:
             return self.space[tklist1[0]], self.space[tklist1[0]]
@@ -1318,8 +1318,8 @@ class RCLtime:
         # nmove is the size of the box being changed
         while tnew > self.trange[-1]:
             self.extend_timeline()
-        tklist1 = np.where(np.array(self.trange) >= told)[0]
-        tklist2 = np.where(np.array(self.trange) >= tnew)[0]
+        tklist1 = np.where(np.array(self.trange, dtype=object) >= told)[0]
+        tklist2 = np.where(np.array(self.trange, dtype=object) >= tnew)[0]
         tklist = np.setxor1d(tklist1, tklist2)
         if told < tnew:
             for tk in tklist:
@@ -1340,14 +1340,14 @@ class RCLtime:
 
     def retrieve_space_by_tfill(self, m, tfill):
         # This function returns the space residuals matching tfill
-        r2 = np.zeros(m, dtype=np.int)  # Collect residual values
+        r2 = np.zeros(m, dtype=int)  # Collect residual values
         for i in range(m):
-            ilist = np.where(np.array(self.trange) == tfill[i])[0]
+            ilist = np.where(np.array(self.trange, dtype=object) == tfill[i])[0]
             r2[i] = self.space[ilist[0]]
         return r2
 
     def find_t_in_timeline(self, t):
-        tklist = np.where(np.array(self.trange) > t)[0]
+        tklist = np.where(np.array(self.trange, dtype=object) > t)[0]
         tk = tklist[0] - 1
         return tk
 
@@ -1367,13 +1367,13 @@ class PiecewisePDF:
     # This class defines a piecewise function along with its pdf and cdf
     def __init__(self, trange, space):
         self.tchunk = np.ediff1d(trange)
-        space_array = np.array(space)
+        space_array = np.array(space, dtype=int)
         for tk in range(len(space_array)):
             if space_array[tk] < 0.0:
                 space_array[tk] = 0.0
         area_chunks = np.multiply(self.tchunk, space_array[:-1])
         area_total = np.sum(area_chunks)
-        self.tk = np.array(trange)                                   # time range for distribution
+        self.tk = np.array(trange, dtype=np.float64)                 # time range for distribution
         self.pk = space_array / float(area_total)                    # probability at tk
         self.ck = np.cumsum(np.multiply(self.pk[:-1], self.tchunk))  # cumulative probability
         self.ck = np.insert(self.ck, 0, 0.0)
@@ -1420,8 +1420,8 @@ class PiecewiseLinearPDF:
     # This class defines a piecewise function along with its pdf and cdf, with a
     # linear increase in probability over each given time range
     def __init__(self, trange, space):
-        self.tk = np.array(trange)              # time range for distribution
-        self.space_array = np.array(space)      # space available in each time range
+        self.tk = np.array(trange, dtype=np.float64)   # time range for distribution
+        self.space_array = np.array(space)             # space available in each time range
         for tk in range(len(self.space_array)):
             if self.space_array[tk] < 0.0:
                 self.space_array[tk] = 0.0

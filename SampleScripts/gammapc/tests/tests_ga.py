@@ -8,6 +8,15 @@ from .. import ga
 import numpy as np
 from random import choice, sample
 
+try:
+    import importlib.resources as pkg_resources
+except ImportError:
+    # Try backported to PY<37 `importlib_resources`.
+    import importlib_resources as pkg_resources
+
+from . import stubs  # relative-import the *package* containing the stubs
+
+
 class XOverTests(unittest.TestCase):
 
     def setUp(self):
@@ -19,30 +28,37 @@ class XOverTests(unittest.TestCase):
                                        87.0, 97.0, 98.0]),
                              np.array([13.0, 20.0, 21.0, 22.0, 57.0, 60.0, 75.0,
                                        84.0, 88.0, 0])]
+
         self.mocka = Mock()
         self.mocka.getopenbins.return_value = 10
         self.mocka.gettfill.return_value = self.tfilloptions[0].copy()
+
         self.mockb = Mock()
         self.mockb.getopenbins.return_value = 9
         self.mockb.gettfill.return_value = self.tfilloptions[1].copy()
 
     def test_xover_mv(self):
-        chromoptions = [range(10), sample(range(10), 10),
+        chromoptions = [list(range(10)), sample(range(10), 10),
                         sample(range(10), 10), sample(range(10), 10)]
-        mockc = Mock()
-        mockd = Mock()
         self.mocka.getgenes.return_value = chromoptions[0]
         self.mockb.getgenes.return_value = chromoptions[1]
+
+        mockc = Mock()
         mockc.getgenes.return_value = chromoptions[2]
         mockc.getopenbins.return_value = 10
         mockc.gettfill.return_value = self.tfilloptions[2].copy()
+
+        mockd = Mock()
         mockd.getgenes.return_value = chromoptions[3]
         mockd.getopenbins.return_value = 9
         mockd.gettfill.return_value = self.tfilloptions[3].copy()
+
         mocklist = [self.mocka, self.mockb, mockc, mockd]
         q, newgenes = ga.xover_mv(list(mocklist), 4, 0.9)
+
         # Check that it returns the correct number of solutions
         self.assertEqual(len(q) + len(newgenes), 4)
+
         # Check that newgenes didn't change old solutions
         for m in range(len(mocklist)):
             if mocklist[m] in q:
@@ -52,22 +68,27 @@ class XOverTests(unittest.TestCase):
                 self.assertEqual(mocklist[m].getgenes(), chromoptions[m])
 
     def test_xover_realgene(self):
-        chroma = range(10)
+        chroma = list(range(10))
         chromb = sample(chroma, len(chroma))
         chroma, chromb = ga.xover_realgene(chroma, chromb)
-        self.assertEqual(len(chroma), 10)
-        self.assertEqual(len(chromb), 10)
-        self.assertTrue(len(chroma) == len(set(chroma)))
-        self.assertTrue(len(chromb) == len(set(chromb)))
 
-    def test_xover_tfill(self):
+        self.assertEqual(len(chroma), 10)
+        self.assertEqual(len(set(chroma)), 10)
+
+        self.assertEqual(len(chromb), 10)
+        self.assertEqual(len(set(chromb)), 10)
+
+    def test_xover_tfill_old_solutions_same(self):
         tfilla, tfillb = ga.xover_tfill(self.mocka, self.mockb)
         self.assertEqual(tfilla[-1], 98.0)
         self.assertEqual(tfillb[-1], 0)
+
         # Check that newgenes didn't change old solutions
         tfillafter = self.mocka.gettfill()
         for i in range(10):
             self.assertEqual(self.tfilloptions[0][i], tfillafter[i])
+
+    def test_xover_tfill_sorting(self):
         # Check sorting capability
         mocke = Mock()
         mocke.getopenbins.return_value = 8
@@ -97,8 +118,9 @@ class MutatTests(unittest.TestCase):
         mockb = Mock()
         mocka.gettfill.return_value = self.tfilla
         mockb.gettfill.return_value = self.tfillb
-        mocka.getgenes.return_value = range(10)
+        mocka.getgenes.return_value = list(range(10))
         mockb.getgenes.return_value = sample(range(10), 10)
+
         q = [mocka, mockb]
         newgenes = [(sample(range(10), 10), self.tfillc),
                     (sample(range(10), 10), self.tfilld)]
@@ -106,9 +128,9 @@ class MutatTests(unittest.TestCase):
         self.assertEqual(len(q) + len(newgenes), 4)
 
     def test_mutat_realgene(self):
-        chrom = range(10)
+        chrom = list(range(10))
         newchrom = ga.mutat_realgene(chrom)
-        self.assertFalse(newchrom is range(10))
+        self.assertFalse(newchrom == list(range(10)))
 
     def test_mutat_tfill(self):
         tfill = np.array([1372.77308083, 1381.75457038, 1390.73605993,
@@ -122,12 +144,15 @@ class MutatTests(unittest.TestCase):
                        [6600, 7200, 1.7503233696504618e-13]]
         tfilla = ga.mutat_tfill(tfill, variability)
         self.assertEqual(len(tfilla), 9)
-        self.assertTrue(2400 <= tfilla[5] < 3000)
+        self.assertLessEqual(2400, tfilla[5])
+        self.assertLess(tfilla[5], 3000)
 
     def test_calcstdevs(self):
         # Test case
-        samplestored = np.load('tests/sample.npz')
-        sample2 = samplestored[samplestored.files[0]]
+        with pkg_resources.path(stubs, 'sample.npz') as sample:
+            samplestored = np.load(sample)
+            sample2 = samplestored[samplestored.files[0]]
+
         variability = ga.calcstdevs(sample2)
         self.assertEqual(variability[0][0], 600)
         self.assertEqual(variability[0][1] - variability[0][0], 600)

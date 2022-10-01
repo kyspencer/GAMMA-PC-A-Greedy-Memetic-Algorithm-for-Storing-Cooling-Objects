@@ -23,25 +23,29 @@ from . import stubs  # relative-import the *package* containing the stubs
 class MOCookieProblemTests(unittest.TestCase):
 
     def setUp(self):
-        cookies = coolcookies.makeobjects(24, 6, 'tests/Cookies24.txt')
-        self.moop = mooproblem.MOCookieProblem(24, 8, 15, 2, cookies)
+        with pkg_resources.path(stubs, 'Cookies24.txt') as cookietext:
+            cookies = coolcookies.makeobjects(24, 6, cookietext)
+            self.moop = mooproblem.MOCookieProblem(24, 8, 15, 2, cookies)
+
         # Make mock solution --------------------------------------------------
         # variable length representation
         vlrep = [[0, 1, 2, 4], [3, 5], [6, 7, 8, 9], [10, 11], [12, 13, 14, 15],
                  [16, 17], [18, 19, 20], [21, 22, 23]]
         # tfill matrix
-        self.tfill = np.zeros(24, dtype=np.float)
+        self.tfill = np.zeros(24, dtype=np.float64)
         tfill_unique = [885.0, 722.0, 1507.0, 1428.0, 2210.0,
                         1958.0, 2764.0, 2509.0]
-        for i in range(8):
+        for i in range(len(tfill_unique)):
             self.tfill[i] = tfill_unique[i]
+
         # x and y matrices
-        self.y = np.zeros(24, dtype=np.int)
+        self.y = np.zeros(24, dtype=int)
         self.y[:len(vlrep)] = 1
-        self.x1 = np.zeros((24, 24), dtype=np.int)
+        self.x1 = np.zeros((24, 24), dtype=int)
         for i in range(len(vlrep)):
             for j in vlrep[i]:
                 self.x1[i, j] = 1
+
         self.mock = Mock()
         self.mock.getid.return_value = 0
         self.mock.getx.return_value = self.x1
@@ -105,19 +109,28 @@ class MOCookieProblemTests(unittest.TestCase):
         ck = self.moop.newx_modregfalsi(vlrepi, 885.0, 4800, 1, 0.5)
         self.assertGreater(ck, 4576.96)
 
-    def test_noreplacement(self):
-        x2 = np.zeros((24, 24), dtype=np.int)
-        x2[1, 0] = 1
-        for i in range(24):
-            x2[i, i] = 2
-        self.assertTrue(self.moop.noreplacement(1, self.x1))
-        self.assertFalse(self.moop.noreplacement(2, x2))
+    def test_noreplacement_pass(self):
+        # This test will fail if the RuntimeError is raised.
+        self.moop.noreplacement(1, self.x1)
 
-    def test_boxcapacity(self):
-        x2 = np.zeros((24, 24), dtype=np.int)
+    def test_noreplacement_missingcookie(self):
+        x2 = self.x1.copy()
+        x2[0, 4] = 0
+        self.assertRaises(RuntimeError, self.moop.noreplacement, 1, x2)
+
+    def test_noreplacement_toomany(self):
+        x2 = self.x1.copy()
+        x2[1, 4] = 1
+        self.assertRaises(RuntimeError, self.moop.noreplacement, 1, x2)
+
+    def test_boxcapacity_passes(self):
+        # This test passes if it does not raise a RuntimeError
+        self.moop.boxcapacity(1, self.x1)
+
+    def test_boxcapacity_overfull(self):
+        x2 = np.zeros((24, 24), dtype=int)
         x2[0, :] = 1
-        self.assertTrue(self.moop.boxcapacity(1, self.x1))
-        self.assertFalse(self.moop.boxcapacity(2, x2))
+        self.assertRaises(RuntimeError, self.moop.boxcapacity, 2, x2)
 
     def test_timeconstraint(self):
         self.assertTrue(self.moop.timeconstraint(self.mock) == [])
@@ -131,9 +144,9 @@ class MOCookieProblemTests(unittest.TestCase):
         violations = self.moop.period_fill_limit(self.mock)
         self.assertTrue(violations == [])
         # Test for violations
-        tfill2 = np.zeros(24, dtype=np.float)
+        tfill2 = np.zeros(24, dtype=np.float64)
         tfill2[:8] = 2500
-        y2 = np.zeros(24, dtype=np.int)
+        y2 = np.zeros(24, dtype=int)
         y2[:8] = 1
         self.mock.gettfill.return_value = tfill2
         self.mock.gety.return_value = y2
@@ -141,7 +154,7 @@ class MOCookieProblemTests(unittest.TestCase):
         self.assertEqual(violations[0], 2400)
 
     def test_timeintervals(self):
-        tfill = np.zeros(5, dtype=np.float)
+        tfill = np.zeros(5, dtype=np.float64)
         tfill_unique = [700, 800, 1450, 900, 1100]
         for i in range(len(tfill_unique)):
             tfill[i] = tfill_unique[i]
@@ -161,10 +174,10 @@ class MOCookieProblemTests(unittest.TestCase):
         vlrep = [[0, 1, 2, 3, 4, 5, 6, 7], [8, 9, 10, 11, 12, 13, 14, 15],
                  [16, 17, 18, 19, 20, 21, 22, 23]]
         mocksol.getvlrep.return_value = vlrep
-        tfill = np.zeros(24, dtype=np.float)
+        tfill = np.zeros(24, dtype=np.float64)
         tfill[:3] = [1900, 2200, 2700]
         mocksol.gettfill.return_value = tfill
-        x = np.zeros((24, 24), dtype=np.int)
+        x = np.zeros((24, 24), dtype=int)
         x[0, :8] = 1
         x[1, 8:16] = 1
         x[2, 16:24] = 1
@@ -188,20 +201,27 @@ class CoolingRackTests(unittest.TestCase):
 
     def setUp(self):
         #seed(56)
-        chromstored = np.load('tests/chrom0.npz')
-        chromname = chromstored.files
-        self.chrom0 = chromstored[chromname[0]]
-        tfillstored = np.load('tests/tfill0.npz')
-        tfillname = tfillstored.files
-        self.tfill0 = tfillstored[tfillname[0]]
-        newgenesstored = np.load('tests/newgenes129.npz')
-        newgenesfiles = newgenesstored.files
-        self.chrom = newgenesstored[newgenesfiles[0]]
-        self.tfill = newgenesstored[newgenesfiles[1]]
-        self.tfill = np.reshape(self.tfill, 1000)
-        cookies = coolcookies.makeobjects(1000, 100, 'tests/Cookies1000.txt')
-        self.bpp = BPP(1000, 24, 300, cookies)
-        self.moop = mooproblem.MOCookieProblem(1000, 24, 300, 8, cookies)
+        with pkg_resources.path(stubs, 'chrom0.npz') as chrom0:
+            chromstored = np.load(chrom0)
+            chromname = chromstored.files
+            self.chrom0 = chromstored[chromname[0]]
+
+        with pkg_resources.path(stubs, 'tfill0.npz') as tfill0:
+            tfillstored = np.load(tfill0)
+            tfillname = tfillstored.files
+            self.tfill0 = tfillstored[tfillname[0]]
+
+        with pkg_resources.path(stubs, 'newgenes129.npz') as newgenes129:
+            newgenesstored = np.load(newgenes129)
+            newgenesfiles = newgenesstored.files
+            self.chrom = newgenesstored[newgenesfiles[0]]
+            self.tfill = newgenesstored[newgenesfiles[1]]
+            self.tfill = np.reshape(self.tfill, 1000)
+
+        with pkg_resources.path(stubs, 'Cookies1000.txt') as cookietext:
+            cookies = coolcookies.makeobjects(1000, 100, cookietext)
+            self.bpp = BPP(1000, 24, 300, cookies)
+            self.moop = mooproblem.MOCookieProblem(1000, 24, 300, 8, cookies)
 
     def test_fixcoolingrack(self):
         solution = sols.MultiSol(129, self.chrom, self.tfill, self.bpp)
@@ -405,25 +425,30 @@ class CoolingRackTests(unittest.TestCase):
 class FixTFillTests(unittest.TestCase):
 
     def setUp(self):
-        cookies = coolcookies.makeobjects(24, 6, 'tests/Cookies24.txt')
-        self.moop = mooproblem.MOCookieProblem(24, 8, 15, 2, cookies)
+        with pkg_resources.path(stubs, 'Cookies24.txt') as cookietext:
+            cookies = coolcookies.makeobjects(24, 6, cookietext)
+            self.moop = mooproblem.MOCookieProblem(24, 8, 15, 2, cookies)
+
         # Make mock solution --------------------------------------------------
         # variable length representation
         self.vlrep = [[0, 1, 2, 4], [3, 5], [6, 7, 8, 9], [10, 11], [12, 13, 14, 15],
                       [16, 17], [18, 19, 20], [21, 22, 23]]
+
         # tfill matrix
-        self.tfill = np.zeros(24, dtype=np.float)
+        self.tfill = np.zeros(24, dtype=np.float64)
         tfill_unique = [885.0, 722.0, 1507.0, 1428.0, 2210.0,
                         2958.0, 2764.0, 2809.0]
         for i in range(8):
             self.tfill[i] = tfill_unique[i]
+
         # x and y matrices
-        self.y = np.zeros(24, dtype=np.int)
+        self.y = np.zeros(24, dtype=int)
         self.y[:len(self.vlrep)] = 1
-        self.x1 = np.zeros((24, 24), dtype=np.int)
+        self.x1 = np.zeros((24, 24), dtype=int)
         for i in range(len(self.vlrep)):
             for j in self.vlrep[i]:
                 self.x1[i, j] = 1
+
         self.mock = Mock()
         self.mock.getid.return_value = 0
         self.mock.getx.return_value = self.x1
@@ -443,6 +468,7 @@ class FixTFillTests(unittest.TestCase):
 
     def test_new_tfill(self):
         violations = self.moop.period_fill_limit(self.mock)
+
         # Get restricted candidate list for new tfill options
         n_b = self.moop.n // self.moop.nbatches
         rcl_tfill = RCLtime(self.moop.coolrack, self.moop.fillcap, n_b,
@@ -450,20 +476,24 @@ class FixTFillTests(unittest.TestCase):
         rcl_tfill.initialize_withtfill(8, self.vlrep, self.tfill)
         t = violations[0]
         solution, rcl_tfill = self.moop.new_tfill(t, rcl_tfill, self.mock)
+
         # Inspect the arguments that solution.edit_tfilli was called with
         inspect = self.mock.mock_calls[-1]
         name, args, kwargs = inspect
         i, t_new = args
+
         # Check that t_new doesn't violate baking, rack, or fill limits
         # Baking limits:
         cookieboolean = self.moop.packatt(self.vlrep[i], t_new)
         self.assertTrue(all(cookieboolean))
+
         # Rack limits:
         tlist = np.where(t_new > np.array(rcl_tfill.t_t))[0]
         t = rcl_tfill.t_t[tlist[-1]]
         cookiesonrack = self.moop.find_cookies_on_rack(t, self.tfill, self.x1)
         space = self.moop.coolrack - len(cookiesonrack) - len(self.vlrep[i])
         self.assertGreater(space, 0)
+
         # Fill limits:
         self.assertGreaterEqual(rcl_tfill.res_fill[tlist[-1]], 0)
 
@@ -489,6 +519,7 @@ class FixTFillTests(unittest.TestCase):
 
     def test_empty_one_box(self):
         violations = self.moop.period_fill_limit(self.mock)
+
         # Get restricted candidate list for new tfill options
         n_b = self.moop.n // self.moop.nbatches
         rcl_tfill = RCLtime(self.moop.coolrack, self.moop.fillcap, n_b,
@@ -496,15 +527,15 @@ class FixTFillTests(unittest.TestCase):
         rcl_tfill.initialize_withtfill(8, self.vlrep, self.tfill)
         mock, rcl_tfill = self.moop.empty_one_box(violations[0], rcl_tfill,
                                                   self.mock)
+
         # Inspect the arguments that solution.moveitem was called with
         inspect = self.mock.mock_calls
         for k in range(len(inspect)):
             name, args, kwargs = inspect[k]
             if name == 'moveitem':
-                self.assertEqual(args[0], 5)
-                self.assertIn(args[1], [16, 17])
-                tmin = self.moop.cookies.get(args[1]).getbatch() \
-                       * self.moop.tbatch
+                self.assertIn(args[0], [5, 6, 7])
+                self.assertIn(args[1], [16, 17, 18, 19, 20, 21, 22, 23])
+                tmin = self.moop.cookies.get(args[1]).getbatch() * self.moop.tbatch
                 self.assertGreaterEqual(self.tfill[args[2]], tmin)
 
     def test_get_box_tmin(self):
@@ -515,21 +546,30 @@ class FixTFillTests(unittest.TestCase):
 
 class MOPfunctionTests(unittest.TestCase):
 
-    def test_dom1(self):
-        u = np.matrix([[38], [500], [500]])
-        v = np.matrix([[39], [600], [600]])
-        self.assertTrue(mooproblem.dom1(u, v))
-        w = np.matrix([[38], [500], [450]])
-        self.assertFalse(mooproblem.dom1(u, w))
-        self.assertFalse(mooproblem.dom1(u, u))
+    def setUp(self):
+        self.u = np.array([38, 500, 500], dtype=int)
 
-    def test_dom2(self):
-        u = np.matrix([[38], [500], [500]])
-        v = np.matrix([[39], [600], [600]])
-        self.assertTrue(mooproblem.dom2(u, v))
-        w = np.matrix([[38], [500], [450]])
-        self.assertFalse(mooproblem.dom2(u, w))
-        self.assertFalse(mooproblem.dom2(u, u))
+    def test_dom1_u_dominant(self):
+        v = np.array([39, 600, 600], dtype=int)
+        self.assertTrue(mooproblem.dom1(self.u, v))
+
+    def test_dom1_v_dominant(self):
+        v = np.array([38, 500, 450], dtype=int)
+        self.assertFalse(mooproblem.dom1(self.u, v))
+
+    def test_dom1_same_fitness_values(self):
+        self.assertFalse(mooproblem.dom1(self.u, self.u))
+
+    def test_dom2_u_dominant(self):
+        v = np.array([39, 600, 600], dtype=int)
+        self.assertTrue(mooproblem.dom2(self.u, v))
+
+    def test_dom2_v_dominant(self):
+        v = np.array([38, 500, 450], dtype=int)
+        self.assertFalse(mooproblem.dom2(self.u, v))
+
+    def test_dom2_same_fitness_values(self):
+        self.assertFalse(mooproblem.dom2(self.u, self.u))
 
 
 if __name__ == '__main__':

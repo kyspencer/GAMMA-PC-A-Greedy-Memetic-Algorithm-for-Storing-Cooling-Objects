@@ -763,6 +763,7 @@ class MOCookieProblem:
         print('     - empty one box')
         tfill = solution.gettfill()
         vlrep = solution.getvlrep()
+
         # Get set of boxes filled during the period starting with t
         p_t = [i for i in range(len(vlrep))
                if t <= tfill[i] < t + self.tbatch / 2.0]
