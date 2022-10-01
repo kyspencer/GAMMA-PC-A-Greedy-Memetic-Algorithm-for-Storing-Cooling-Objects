@@ -2,16 +2,23 @@
 #   This file tests binpacking_dynamic.py for errors.
 #   Author: Kristina Yancey Spencer
 
-import binpacking_dynamic as bp
-import coolcookies
 import numpy as np
 import unittest
 from copy import copy
 from mock import Mock
-from mooproblem import checkformismatch, MOCookieProblem
 from random import randint, sample, uniform
-from solutions_dynamic import MultiSol
-from StringIO import StringIO
+from io import StringIO
+
+try:
+    import importlib.resources as pkg_resources
+except ImportError:
+    # Try backported to PY<37 `importlib_resources`.
+    import importlib_resources as pkg_resources
+
+from .. import coolcookies, binpacking_dynamic as bp
+from ..mooproblem import checkformismatch, MOCookieProblem
+from ..solutions_dynamic import MultiSol
+from . import stubs  # relative-import the *package* containing the stubs
 
 
 class BinpackingTests(unittest.TestCase):

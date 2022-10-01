@@ -1,0 +1,8 @@
+#! /bin/sh
+# This file collects all the test scripts to run altogether.
+python -m gammapc.tests.tests_ga
+python -m gammapc.tests.tests_binpacking
+python -m gammapc.tests.tests_mooproblem
+python -m gammapc.tests.tests_solutions
+python -m gammapc.tests.tests_grasp
+python -m gammapc.tests.tests_algorithm

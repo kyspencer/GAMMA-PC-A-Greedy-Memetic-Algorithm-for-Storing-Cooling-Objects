@@ -4,14 +4,20 @@
 
 import unittest
 from mock import Mock
-import coolcookies
-import mooproblem
 import numpy as np
-import solutions_dynamic as sols
-from binpacking_dynamic import BPP, coordarrays
-from grasp import RCLtime
-from StringIO import StringIO
-from random import choice, seed
+from io import StringIO
+from random import choice
+
+try:
+    import importlib.resources as pkg_resources
+except ImportError:
+    # Try backported to PY<37 `importlib_resources`.
+    import importlib_resources as pkg_resources
+
+from ..binpacking_dynamic import BPP, coordarrays
+from .. import coolcookies, mooproblem, solutions_dynamic as sols
+from ..grasp import RCLtime
+from . import stubs  # relative-import the *package* containing the stubs
 
 
 class MOCookieProblemTests(unittest.TestCase):

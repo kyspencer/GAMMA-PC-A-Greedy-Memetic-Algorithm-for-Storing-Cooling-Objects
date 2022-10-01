@@ -5,10 +5,11 @@
 from __future__ import print_function
 import numpy as np
 import sys
-from binpacking_dynamic import coordarrays
 from random import choice, random, uniform
-from grasp import RCLtime
 from operator import attrgetter
+
+from .binpacking_dynamic import coordarrays
+from .grasp import RCLtime
 
 
 class MOCookieProblem:

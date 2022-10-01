@@ -13,7 +13,7 @@ import binpacking as bp
 import mop
 import numpy as np
 import os
-import outformat as outf
+from gammapc import outformat as outf
 import random
 import solutions as sol
 from datetime import datetime

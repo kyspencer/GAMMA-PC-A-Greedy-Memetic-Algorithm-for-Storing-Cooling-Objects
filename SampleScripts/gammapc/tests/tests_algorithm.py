@@ -4,15 +4,16 @@
 
 import unittest
 from mock import Mock
-import coolcookies
-import grasp
-import h5py
-import mooproblem as mop
-import algorithm
-import numpy as np
-import solutions_dynamic as sols
-from ga import binsel
-from random import choice, sample
+
+try:
+    import importlib.resources as pkg_resources
+except ImportError:
+    # Try backported to PY<37 `importlib_resources`.
+    import importlib_resources as pkg_resources
+
+from ..ga import binsel
+from .. import algorithm, coolcookies, grasp, mooproblem as mop
+from . import stubs  # relative-import the *package* containing the stubs
 
 
 class GeneralTests(unittest.TestCase):
@@ -20,7 +21,7 @@ class GeneralTests(unittest.TestCase):
     def setUp(self):
         self.n = 24
         self.folder = 'tests/'
-        file = 'Cookies24.txt'
+        file = 'stubs/Cookies24.txt'
         cookies = coolcookies.makeobjects(self.n, 6, self.folder+file)
         moop = mop.MOCookieProblem(self.n, 8, 15, 2, cookies)
         bpp = grasp.BPP(self.n, cookies, moop)

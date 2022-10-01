@@ -12,11 +12,10 @@
 
 from __future__ import print_function
 import binpacking as bp
-import ga
+from gammapc import ga, outformat as outf
 import mop
 import numpy as np
 import os
-import outformat as outf
 import random
 import solutions as sol
 from datetime import datetime

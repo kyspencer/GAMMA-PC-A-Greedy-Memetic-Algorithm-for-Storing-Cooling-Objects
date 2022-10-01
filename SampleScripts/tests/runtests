@@ -1,7 +1,0 @@
-#! /bin/sh
-# This file collects all the test scripts to run altogether.
-python tests_ga.py
-python tests_binpacking.py
-python tests_mooproblem.py
-python tests_solutions.py
-python tests_nsgaii.py

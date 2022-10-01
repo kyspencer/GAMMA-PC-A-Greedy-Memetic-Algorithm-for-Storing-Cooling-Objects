@@ -3,10 +3,10 @@
 #   Author: Kristina Spencer
 #   Date: March 31, 2016
 
-import binpacking_dynamic as bp
+from . import binpacking_dynamic as bp
 import random
 from numpy import allclose, sum, zeros
-from operator import attrgetter, itemgetter
+from operator import itemgetter
 
 
 def main():

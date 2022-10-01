@@ -3,14 +3,10 @@
 #    Author: Kristina Yancey Spencer
 
 import unittest
-from mock import Mock
-import binpacking_dynamic as bp
-import coolcookies
-import h5py
-import mooproblem
+from gammapc import coolcookies, binpacking_dynamic as bp, mooproblem
+from gammapc import solutions_dynamic as sols
 import moma_dynamic as moma
 import numpy as np
-import solutions_dynamic as sols
 from random import choice, sample
 
 

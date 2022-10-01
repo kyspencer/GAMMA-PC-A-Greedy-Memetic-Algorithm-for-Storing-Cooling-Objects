@@ -5,7 +5,7 @@
 
 import nsgaii_dynamic as nsgaii
 import moma_dynamic as moma
-import algorithm
+from gammapc import algorithm
 from TextMeWhenDone import TextMeWhenDone
 
 

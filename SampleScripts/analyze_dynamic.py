@@ -9,13 +9,12 @@ import numpy as np
 import os
 import pandas
 import seaborn
-from coolcookies import makeobjects
 from glob import glob
 from math import ceil, sqrt
 from matplotlib import pyplot
 from matplotlib import ticker
-from mpl_toolkits.mplot3d import Axes3D
-from openpyxl import load_workbook
+
+from gammapc.coolcookies import makeobjects
 
 # Set environment for graphs
 colors = ['#49ADA2', '#7797F4', '#C973F4', '#EF6E8B', '#FFAA6C']

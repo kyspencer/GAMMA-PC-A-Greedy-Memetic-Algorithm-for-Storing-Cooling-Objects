@@ -4,10 +4,18 @@
 
 import unittest
 import numpy as np
-import solutions_dynamic as sols
-from binpacking_dynamic import BPP
-from coolcookies import makeobjects
-from random import sample, seed
+from random import sample
+
+try:
+    import importlib.resources as pkg_resources
+except ImportError:
+    # Try backported to PY<37 `importlib_resources`.
+    import importlib_resources as pkg_resources
+
+from ..binpacking_dynamic import BPP
+from ..coolcookies import makeobjects
+from .. import solutions_dynamic as sols
+from . import stubs  # relative-import the *package* containing the stubs
 
 class MultiSolTests(unittest.TestCase):
 

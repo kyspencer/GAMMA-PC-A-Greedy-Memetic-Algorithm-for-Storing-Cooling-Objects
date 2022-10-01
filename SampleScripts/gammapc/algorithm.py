@@ -9,20 +9,17 @@
 #    t - time index
 
 from __future__ import print_function
-import coolcookies
 import csv
-import ga
-import grasp
 import h5py
-import mooproblem as mop
 import numpy as np
-import outformat as outf
 import random
 import sys
 from datetime import datetime
 from glob import glob
 from operator import attrgetter
 from os import mkdir, path
+
+from . import coolcookies, ga, grasp, outformat as outf, mooproblem as mop
 
 
 def algorithm(n, folder, datafile):

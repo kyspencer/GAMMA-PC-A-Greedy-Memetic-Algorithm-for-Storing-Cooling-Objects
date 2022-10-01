@@ -4,9 +4,9 @@
 
 import unittest
 from mock import Mock
-import ga
+from .. import ga
 import numpy as np
-from random import choice, random, sample
+from random import choice, sample
 
 class XOverTests(unittest.TestCase):
 

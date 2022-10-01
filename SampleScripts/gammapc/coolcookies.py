@@ -127,5 +127,5 @@ if __name__ == '__main__':
     #n = eval(input('How many items should be present?'))
     n = 24
     batchsize = 6
-    filename = 'tests/Cookies24.txt'
+    filename = 'tests/stubs/Cookies24.txt'
     cookies = makeobjects(n, batchsize, filename)

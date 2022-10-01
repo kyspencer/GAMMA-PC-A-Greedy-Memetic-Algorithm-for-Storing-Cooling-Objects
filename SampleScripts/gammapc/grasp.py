@@ -6,12 +6,13 @@
 from __future__ import print_function
 import numpy as np
 import random
-import solutions_dynamic as solmaker
 import sys
 from copy import deepcopy
 from itertools import combinations
 from math import ceil, sqrt
 from operator import attrgetter
+
+from . import solutions_dynamic as solmaker
 
 
 class BPP:

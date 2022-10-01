@@ -4,15 +4,20 @@
 
 from __future__ import print_function
 import unittest
-import coolcookies
-import grasp
-import mooproblem as mop
 import numpy as np
-import solutions_dynamic as sols
 from copy import deepcopy
 from mock import Mock
 from random import randint, uniform
-from StringIO import StringIO
+from io import StringIO
+
+try:
+    import importlib.resources as pkg_resources
+except ImportError:
+    # Try backported to PY<37 `importlib_resources`.
+    import importlib_resources as pkg_resources
+
+from .. import coolcookies, grasp, mooproblem as mop, solutions_dynamic as sols
+from . import stubs  # relative-import the *package* containing the stubs
 
 
 class GRASPTests(unittest.TestCase):

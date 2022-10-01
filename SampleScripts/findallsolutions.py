@@ -9,11 +9,8 @@
 #    t - time index
 
 from __future__ import print_function
-import coolcookies
 import csv
-import grasp
 import h5py
-import mooproblem as mop
 import numpy as np
 import operator as op
 import random
@@ -23,6 +20,8 @@ from functools import reduce
 from itertools import combinations
 from operator import attrgetter
 from os import mkdir, path
+
+from gammapc import coolcookies, grasp, mooproblem as mop
 
 
 def main():

@@ -9,21 +9,19 @@
 #    t - time index
 
 from __future__ import print_function
-import coolcookies
 import csv
-import ga
 import h5py
-import mooproblem as mop
 import numpy as np
-import outformat as outf
 import random
-import solutions_dynamic as sols
 import sys
-from binpacking_dynamic import BPP
 from datetime import datetime
 from glob import glob
 from operator import attrgetter
 from os import mkdir, path
+
+from gammapc.binpacking_dynamic import BPP
+from gammapc import coolcookies, ga, outformat as outf, mooproblem as mop
+from gammapc import solutions_dynamic as sols
 
 
 def nsgaii(n, folder, datafile):
